@@ -1,4 +1,16 @@
-* text=auto
+* text eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.jpeg binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.svg binary
+*.pdf binary
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
