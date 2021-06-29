@@ -1,0 +1,59 @@
+@import "variables";
+@import "~bootstrap";
+
+@import "bandle/classy-nav";
+
+//@import "~animate.css";
+@import "bandle/animate";
+
+//@import "~owl.carousel2/src/scss/owl.theme.default";
+@import "bandle/owl";
+
+//@import "~magnific-popup";
+@import "bandle/magnific-popup";
+
+//@import "~jquery-animated-headlines/src/scss/jquery.animatedheadline";
+@import "bandle/janimate";
+
+@import "bandle/lineicons";
+
+//@import "~font-awesome";
+@import "bandle/font-awesome";
+
+// Флаги пока нахуй не нужны
+//@import "~flag-icon-css"; ебать, это победа нахуй
+
+@import "responsive.scss";
+
+@import "reboot.scss";
+@import "shortcode.scss";
+
+@import "preloader.scss";
+@import "header.scss";
+@import "hero.scss";
+@import "about.scss";
+@import "tab.scss";
+@import "service.scss";
+@import "pricing.scss";
+@import "feature.scss";
+@import "team.scss";
+@import "partner.scss";
+@import "portfolio.scss";
+@import "feedback.scss";
+@import "video.scss";
+@import "counter.scss";
+@import "blog.scss";
+@import "footer.scss";
+@import "cta.scss";
+@import "cookie.scss";
+@import "faq.scss";
+@import "breadcrumb.scss";
+@import "shop.scss";
+@import "error.scss";
+@import "register.scss";
+@import "contact.scss";
+
+// демо тоже нахуй не надо пока что
+//@import "demo.scss";
+
+@import "custom";
