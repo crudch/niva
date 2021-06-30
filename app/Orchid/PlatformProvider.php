@@ -71,7 +71,7 @@ class PlatformProvider extends OrchidServiceProvider
             Menu::make('Documentation')
                 ->title('Docs')
                 ->icon('docs')
-                ->url('https://orchid.software/en/docs'),
+                ->url('https://orchid.software/ru/docs'),
 
             Menu::make('Changelog')
                 ->icon('shuffle')
