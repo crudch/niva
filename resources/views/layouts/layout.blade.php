@@ -9,21 +9,21 @@
     <!-- Title-->
     <title>@yield('title')</title>
     <!-- Favicon-->
-    <link rel="icon" href="/img/core-img/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
 <!-- Preloader-->
 <div class="preloader" id="preloader">
-    <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
+    <div class="spinner-grow text-light" role="status"><span class="sr-only">Загрузка...</span></div>
 </div>
 <!-- Header Area-->
 <header class="header-area header2">
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar navbar2 justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -35,94 +35,14 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="#home">Home</a>
-                                <ul class="dropdown">
-                                    <li><a href="creative-agency.html"><i class="lni-diamond"></i><span>Creative Agency <span>for creative agency.</span></span></a></li>
-                                    <li><a href="corporate-business.html"><i class="lni-bolt"></i><span>Corporate &amp; Business <span>for corporate business.</span></span></a></li>
-                                    <li><a href="seo-business.html"><i class="lni-bulb"></i><span>SEO &amp; Business <span>for seo &amp; business.</span></span></a></li>
-                                    <li><a href="sass-landing.html"><i class="lni-cog"></i><span>Saas Landing <span>for software as a service.</span></span></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Pages</a>
-                                <div class="megamenu">
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="about-standard.html">About Standard</a></li>
-                                        <li><a href="about-creative.html">About Creative</a></li>
-                                        <li><a href="features.html">Features</a></li>
-                                        <li><a href="service-standard.html">Service Standard</a></li>
-                                        <li><a href="service-creative.html">Service Creative</a></li>
-                                        <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="reviews.html">Reviews</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="forget-password.html">Forget Password</a></li>
-                                        <li><a href="newsletter.html">Newsletter</a></li>
-                                        <li><a href="404.html">404 - Error</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="portfolio-standard.html">Portfolio Standard</a></li>
-                                        <li><a href="portfolio-creative.html">Portfolio Creative</a></li>
-                                        <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
-                                        <li><a href="portfolio-details-one.html">Portfolio Details 1</a></li>
-                                        <li><a href="portfolio-details-two.html">Portfolio Details 2</a></li>
-                                        <li><a href="portfolio-details-three.html">Portfolio Details 3</a></li>
-                                        <li><a href="portfolio-details-four.html">Portfolio Details 4</a></li>
-                                        <li><a href="#">Coming Soon</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="blog-card.html">Blog Card</a></li>
-                                        <li><a href="blog-card-sidebar.html">Blog Card Sidebar</a></li>
-                                        <li><a href="blog-full.html">Blog Full</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-details-full.html">Blog Details One</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Two</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Three</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="#blog">Works</a>
-                                <ul class="dropdown">
-                                    <li><a href="portfolio-standard.html">Portfolio Standard</a></li>
-                                    <li><a href="portfolio-creative.html">Portfolio Creative</a></li>
-                                    <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
-                                    <li><a href="portfolio-details-one.html">Portfolio Details One</a></li>
-                                    <li><a href="portfolio-details-two.html">Portfolio Details Two</a></li>
-                                    <li><a href="portfolio-details-three.html">Portfolio Details Three</a></li>
-                                    <li><a href="portfolio-details-four.html">Portfolio Details Four</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#blog">Shop</a>
-                                <ul class="dropdown">
-                                    <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                                    <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
-                                    <li><a href="single-product.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#blog">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="blog-card.html">Blog Card</a></li>
-                                    <li><a href="blog-card-sidebar.html">Blog Card Sidebar</a></li>
-                                    <li><a href="blog-full.html">Blog Full</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-details-full.html">Blog Details One</a></li>
-                                    <li><a href="blog-details-left-sidebar.html">Blog Details Two</a></li>
-                                    <li><a href="blog-details-right-sidebar.html">Blog Details Three</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Компании</a></li>
+                            <li><a href="#">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
-                        <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Buy Now</a></div>
+                        <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>
                     </div>
                 </div>
             </nav>
@@ -153,10 +73,9 @@
             <div class="col-12 col-md-6">
                 <!-- Content-->
                 <div class="welcome-content pr-3">
-                    <h2 class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">Будьте в курсе Читайте отзывы о компаниях вашего города, откройте для себя новые места.</h2>
-                    <p class="mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">Это надежный и многомерный шаблон, который можно использовать.</p>
+                    <h2 class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">Читайте и размещайте отзывы о товарах и компаниях, узнавайте и применяйте лучший опыт и рекомендации.</h2>
+                    <p class="mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">Платформа размещения авторских отзывов</p>
                     <!-- Button Group-->
-                    <div class="btn-group-one wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms"><a class="btn saasbox-btn white-btn mt-3" href="#">More About Us</a><a class="btn saasbox-btn-2 mt-3 ml-3 ml-sm-4 video-play-btn" href="https://www.youtube.com/watch?v=lFGvqvPh5jI" data-effect="mfp-zoom-in"><i class="mr-1 lni-play"></i>Play Video</a></div>
                 </div>
             </div>
             <div class="col-10 col-md-6">
@@ -174,7 +93,7 @@
     <div class="client-feedback-heading">
         <div class="section-heading mb-0 text-right white">
             <h6>ЛУчшие отзывы</h6>
-            <h2 class="mb-4">Самые правдивейшие и честнейшие отзывы во всём мультивёрсе, по-любому</h2>
+            <h2 class="mb-4">Данные отзывы набрали наибольшее количество голосов за последние 7 дней</h2>
         </div>
     </div>
     <!-- Client Feedback Content-->
@@ -184,13 +103,13 @@
             <div class="card feedback-card bg-white">
                 <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/David.jpg" alt=""></div>
                         <div class="client-name">
-                            <h6>Григорий Петров</h6>
-                            <p>Хозяин</p>
+                            <h6>Дэвид</h6>
+                            <p>David</p>
                         </div>
                     </div>
-                    <p>Вы спасли наш бизнес! Спасибо, ребята, продолжайте в том же духе! Лучшее в сети!</p>
+                    <p>Вкусный и полезный зелёный чай с натуральным составом </p>
                     <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
                         <li class="active"><i class="lni-star-filled"></i></li>
                         <li class="active"><i class="lni-star-filled"></i></li>
@@ -204,10 +123,10 @@
             <div class="card feedback-card bg-white">
                 <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/Hanna.jpg" alt=""></div>
                         <div class="client-name">
-                            <h6>Ахмет АХМЕТ</h6>
-                            <p>CEO</p>
+                            <h6>Ханна</h6>
+                            <p>Hanna</p>
                         </div>
                     </div>
                     <p>НАСТОЯТЕЛЬНО рекомендую агентство ВСЕМ, кто заинтересован в ведении успешного бизнеса!</p>
@@ -224,13 +143,13 @@
             <div class="card feedback-card bg-white">
                 <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/Richard.jpg" alt=""></div>
                         <div class="client-name">
-                            <h6>Син Джин По</h6>
-                            <p>營成</p>
+                            <h6>Ричард</h6>
+                            <p>Richard</p>
                         </div>
                     </div>
-                    <p>我向有興趣經營成功的每個人強烈推薦代理商！</p>
+                    <p>Хочу поделиться впечатлениями об аромате, который уже второе лето является моим фаворитом на каждый день</p>
                     <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
                         <li class="active"><i class="lni-star-filled"></i></li>
                         <li class="active"><i class="lni-star-filled"></i></li>
@@ -244,13 +163,13 @@
             <div class="card feedback-card bg-white">
                 <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/Katie.jpg" alt=""></div>
                         <div class="client-name">
-                            <h6>Ваня Д.</h6>
-                            <p>Ваня</p>
+                            <h6>Кэти</h6>
+                            <p>Katie</p>
                         </div>
                     </div>
-                    <p>Абсолютно замечательный! Хотел бы я сначала подумать об этом. Я бы потерялся без свободы воли.</p>
+                    <p>Даже не ожидала, что патчи а 55 рублей, тем более что в упаковке их целых 10 штук, покажут хороший результат</p>
                     <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
                         <li class="active"><i class="lni-star-filled"></i></li>
                         <li class="active"><i class="lni-star-filled"></i></li>
@@ -272,8 +191,8 @@
                 <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-dinner"></i>
-                            <h5>Поесть</h5>
-                            <p class="mb-0">Самые вкусные блюда</p>
+                            <h5>Рестораны</h5>
+                            <p class="mb-0">Блюда со всего света</p>
                         </div>
                     </div>
                 </div>
@@ -282,7 +201,7 @@
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-juice"></i>
                             <h5>Бары</h5>
-                            <p class="mb-0">Побариться</p>
+                            <p class="mb-0">Напитки и ночная жизнь</p>
                         </div>
                     </div>
                 </div>
@@ -291,7 +210,7 @@
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-coffee-cup"></i>
                             <h5>Кофейни</h5>
-                            <p class="mb-0">Взбодриться</p>
+                            <p class="mb-0">Бодрость начинается отсюда</p>
                         </div>
                     </div>
                 </div>
@@ -300,7 +219,7 @@
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="700ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-delivery"></i>
                             <h5>Доставка еды</h5>
-                            <p class="mb-0">Прямо в кровать</p>
+                            <p class="mb-0">Круглосуточно и быстро</p>
                         </div>
                     </div>
                 </div>
@@ -318,7 +237,7 @@
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-taxi"></i>
                             <h5>Такси</h5>
-                            <p class="mb-0">Довезут за 60 секунд</p>
+                            <p class="mb-0">Парки и частные водители</p>
                         </div>
                     </div>
                 </div>
@@ -327,7 +246,7 @@
                     <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
                         <div class="card-body"><i class="lni-spray"></i>
                             <h5>Салоны красоты</h5>
-                            <p class="mb-0">Помоем, Подкрасим, Подкачаем, Ощипаем </p>
+                            <p class="mb-0">Стрижка, маникюр, макияж</p>
                         </div>
                     </div>
                 </div>
@@ -351,8 +270,8 @@
             <div class="col-12 col-sm-9 col-lg-7 col-xxl-6">
                 <div class="section-heading text-center">
                     <h2>Блог</h2>
-                    <h6>Свежие записи</h6>
-                    <p>Он создан с учетом последних тенденций дизайна и закодирован с учетом всех современных подходов. Это надежный и многомерный шаблон. Его можно использовать!</p>
+                    <h6>Новые записи</h6>
+                    <p>Интересные статьи и полезные новости от редакции</p>
                 </div>
             </div>
         </div>
@@ -361,28 +280,28 @@
         <div class="row justify-content-center g-5">
             <!-- Blog Card-->
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_00.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>Семь рецептов засолки огурцов.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Десять рецептов варенья из ягод.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 2 минута</span></div>
                     </div>
                 </div>
             </div>
             <!-- Blog Card-->
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_01.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>Семь лучших сортов огурцов.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/park.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Куда пойти в выходные.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 4 минута</span></div>
                     </div>
                 </div>
             </div>
             <!-- Blog Card-->
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_02.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>Семь самых крупных огурцов.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/accessories.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Обзор полезных аксессуаров.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 3 минута</span></div>
                     </div>
                 </div>
             </div>
@@ -417,11 +336,11 @@
         <div class="row justify-content-between">
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-10 col-lg-3">
-                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="index.html"><img src="img/core-img/logo-white.png" alt=""></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
+                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                    <p>По всем вопросам сотрудничества, Вы можете связаться с нами через форму обратной связи и с помощью социальных сетей, указанных ниже</p>
                     <div class="newsletter-form">
                         <form action="#">
-                            <input class="form-control" type="email" placeholder="Enter email &amp; press enter">
+                            <input class="form-control" type="email" placeholder="Ваш email">
                             <button class="btn d-none" type="submit">Go</button>
                         </form>
                     </div>
@@ -431,42 +350,36 @@
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">Important Links</h5>
+                    <h5 class="widget-title">Оставить отзыв</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">About Licences</a></li>
-                        <li><a href="#" target="_blank">Help &amp; Support</a></li>
-                        <li><a href="#" target="_blank">Careers</a></li>
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Community &amp; Forum</a></li>
+                        <li><a href="#" target="_blank">о компании</a></li>
+                        <li><a href="#" target="_blank">о сайте</a></li>
+                        <li><a href="#" target="_blank">о товаре</a></li>
+                        <li><a href="#" target="_blank">о фильме</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">Our Products</h5>
+                    <h5 class="widget-title">Карта сайта</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Apland Landing</a></li>
-                        <li><a href="#" target="_blank">Ecaps Admin</a></li>
-                        <li><a href="#" target="_blank">Bigshop Ecommerce</a></li>
-                        <li><a href="#" target="_blank">Classy Multipurpose</a></li>
-                        <li><a href="#" target="_blank">Educamp Education</a></li>
-                        <li><a href="#" target="_blank">Champ Portfolio</a></li>
+                        <li><a href="#" target="_blank">Отзывы</a></li>
+                        <li><a href="#" target="_blank">Блог</a></li>
+                        <li><a href="#" target="_blank">Компании</a></li>
+                        <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">My Account</h5>
+                    <h5 class="widget-title">Правила</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Community &amp; Forum</a></li>
-                        <li><a href="#" target="_blank">About Licences</a></li>
-                        <li><a href="#" target="_blank">Careers</a></li>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Help &amp; Support</a></li>
+                        <li><a href="#" target="_blank">FAQ</a></li>
+                        <li><a href="#" target="_blank">Информация для авторов</a></li>
+                        <li><a href="#" target="_blank">Информация для компаний</a></li>
+                        <li><a href="#" target="_blank">Лицензионное соглашение</a></li>
                     </ul>
                 </div>
             </div>
@@ -477,16 +390,16 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <!-- Copywrite Text-->
                 <div class="footer--content-text">
-                    <p class="mb-0">All rights reserved by <a href="#" target="_blank">Designing World</a></p>
+                    <p class="mb-0">2021 <a href="#" target="_blank">Отзовик</a></p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-5">
                 <!-- Footer Nav-->
                 <div class="footer-nav">
                     <ul class="d-flex">
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">Get Support</a></li>
+                        <li><a href="#" target="_blank">О проекте</a></li>
+                        <li><a href="#" target="_blank">Политика</a></li>
+                        <li><a href="#" target="_blank">Поддержка</a></li>
                     </ul>
                 </div>
             </div>
@@ -494,8 +407,11 @@
                 <!-- Default dropup button-->
                 <div class="language-dropdown text-center text-lg-right mt-4 mt-lg-0">
                     <div class="btn-group dropup">
-                        <button class="btn saasbox-btn-2 dropdown-toggle text-white" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-sa"></span>Arabic</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-bd"></span>Bengali</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-us"></span>English</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-my"></span>Malay</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-es"></span>Spanish</a></div>
+                        <button class="btn saasbox-btn-2 dropdown-toggle text-white" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Выбор языка</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-ru"></span>Русский</a>
+                            <a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-us"></span>English</a>
+                        </div>
                     </div>
                 </div>
             </div>

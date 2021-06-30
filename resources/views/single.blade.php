@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,23 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Отзовичок</title>
+    <title>Отзыв о...</title>
     <!-- Favicon-->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
 <!-- Preloader-->
 <div class="preloader" id="preloader">
-    <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
+    <div class="spinner-grow text-light" role="status"><span class="sr-only">Загрузка...</span></div>
 </div>
 <!-- Header Area-->
 <header class="header-area header2">
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar navbar2 justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -35,94 +35,14 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="#home">Home</a>
-                                <ul class="dropdown">
-                                    <li><a href="creative-agency.html"><i class="lni-diamond"></i><span>Creative Agency <span>for creative agency.</span></span></a></li>
-                                    <li><a href="corporate-business.html"><i class="lni-bolt"></i><span>Corporate &amp; Business <span>for corporate business.</span></span></a></li>
-                                    <li><a href="seo-business.html"><i class="lni-bulb"></i><span>SEO &amp; Business <span>for seo &amp; business.</span></span></a></li>
-                                    <li><a href="sass-landing.html"><i class="lni-cog"></i><span>Saas Landing <span>for software as a service.</span></span></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Pages</a>
-                                <div class="megamenu">
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="about-standard.html">About Standard</a></li>
-                                        <li><a href="about-creative.html">About Creative</a></li>
-                                        <li><a href="features.html">Features</a></li>
-                                        <li><a href="service-standard.html">Service Standard</a></li>
-                                        <li><a href="service-creative.html">Service Creative</a></li>
-                                        <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="reviews.html">Reviews</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="forget-password.html">Forget Password</a></li>
-                                        <li><a href="newsletter.html">Newsletter</a></li>
-                                        <li><a href="404.html">404 - Error</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="portfolio-standard.html">Portfolio Standard</a></li>
-                                        <li><a href="portfolio-creative.html">Portfolio Creative</a></li>
-                                        <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
-                                        <li><a href="portfolio-details-one.html">Portfolio Details 1</a></li>
-                                        <li><a href="portfolio-details-two.html">Portfolio Details 2</a></li>
-                                        <li><a href="portfolio-details-three.html">Portfolio Details 3</a></li>
-                                        <li><a href="portfolio-details-four.html">Portfolio Details 4</a></li>
-                                        <li><a href="#">Coming Soon</a></li>
-                                    </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li><a href="blog-card.html">Blog Card</a></li>
-                                        <li><a href="blog-card-sidebar.html">Blog Card Sidebar</a></li>
-                                        <li><a href="blog-full.html">Blog Full</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-details-full.html">Blog Details One</a></li>
-                                        <li><a href="blog-details-left-sidebar.html">Blog Details Two</a></li>
-                                        <li><a href="blog-details-right-sidebar.html">Blog Details Three</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="#blog">Works</a>
-                                <ul class="dropdown">
-                                    <li><a href="portfolio-standard.html">Portfolio Standard</a></li>
-                                    <li><a href="portfolio-creative.html">Portfolio Creative</a></li>
-                                    <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
-                                    <li><a href="portfolio-details-one.html">Portfolio Details One</a></li>
-                                    <li><a href="portfolio-details-two.html">Portfolio Details Two</a></li>
-                                    <li><a href="portfolio-details-three.html">Portfolio Details Three</a></li>
-                                    <li><a href="portfolio-details-four.html">Portfolio Details Four</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#blog">Shop</a>
-                                <ul class="dropdown">
-                                    <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                                    <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
-                                    <li><a href="single-product.html">Product Details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#blog">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="blog-card.html">Blog Card</a></li>
-                                    <li><a href="blog-card-sidebar.html">Blog Card Sidebar</a></li>
-                                    <li><a href="blog-full.html">Blog Full</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-details-full.html">Blog Details One</a></li>
-                                    <li><a href="blog-details-left-sidebar.html">Blog Details Two</a></li>
-                                    <li><a href="blog-details-right-sidebar.html">Blog Details Three</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Компании</a></li>
+                            <li><a href="#">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
-                        <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Buy Now</a></div>
+                        <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>
                     </div>
                 </div>
             </nav>
@@ -130,44 +50,55 @@
     </div>
 </header>
 <!-- Breadcrumb Area-->
-<div class="breadcrumb--area white-bg-breadcrumb">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-12">
-                <div class="breadcrumb-content">
-                    <h2 class="breadcrumb-title">Product Details</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Shop</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="breadcrumb--area white-bg-breadcrumb">--}}
+{{--    <div class="container h-100">--}}
+{{--        <div class="row h-100 align-items-center">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="breadcrumb-content">--}}
+{{--                    <h2 class="breadcrumb-title">Product Details</h2>--}}
+{{--                    <nav aria-label="breadcrumb">--}}
+{{--                        <ol class="breadcrumb justify-content-center">--}}
+{{--                            <li class="breadcrumb-item"><a href="/">Главная</a></li>--}}
+{{--                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы "Большая кормушка"</a></li>--}}
+{{--                        </ol>--}}
+{{--                    </nav>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- Product Details Area-->
 <div class="product-details-area product-details-page section-padding-120">
     <div class="container">
+        <div class="col-12">
+            <div class="breadcrumb-content">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="#">"Большая кормушка"</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
         <div class="card product-description-card mb-5">
             <h6 class="product-meta-title mb-0 pl-5 py-4">ЗАО "Большая кормушка"</h6>
             <div class="row g-0">
                 <div class="col-md-4 text-center">
                     <img src="/img/custom-img/feeder.jpg" alt="..." style="width: 300px; height: 300px">
                     <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
-                        <li class="active"><i class="lni-star"></i></li>
-                        <li class="active"><i class="lni-star"></i></li>
-                        <li class="active"><i class="lni-star"></i></li>
-                        <li class="active"><i class="lni-star"></i></li>
-                        <li class="active"><i class="lni-star"></i></li>
-                    </ul><span>4.89 out of 5.00 (203 reviews)</span>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                    </ul><span>4.89 из 5.00 (23 отзыва)</span>
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Большая кормушка</h5>
+{{--                        <h5 class="card-title">Большая кормушка</h5>--}}
                         <p class="card-text">Большая кормушка, созданная с учетом последних тенденций дизайна и разработанная с учетом всех современных подходов. Это надежный и многомерный шаблон, который можно использовать.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted">Последнее обновление 3 минуты назад</small></p>
                     </div>
                 </div>
             </div>
@@ -257,7 +188,7 @@
             </div>
             <!-- Comments Area-->
             <div class="comment_area mb-50 clearfix">
-                <h4 class="mb-5">Comments</h4>
+                <h4 class="mb-5">Комментарии</h4>
                 <ol class="pl-0">
                     <!-- Single Comment Area-->
                     <li class="single_comment_area">
@@ -265,9 +196,9 @@
                             <div class="comment-author"><img src="img/bg-img/t4.png" alt="author"></div>
                             <div class="comment-meta py-2">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h6>Lim Jannat</h6><a class="post-date" href="#">3h ago</a>
+                                    <h6>Иван Пантелеев</h6><a class="post-date" href="#">3 часа назад</a>
                                 </div>
-                                <p>You've saved our business! Thanks guys, keep up the good work! The best on the net!</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                                <p>Вы спасли наш бизнес! Спасибо, ребята, продолжайте в том же духе!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
                             </div>
                         </div>
                         <ol class="children">
@@ -277,9 +208,9 @@
                                     <div class="comment-author"><img src="img/bg-img/t2.png" alt="author"></div>
                                     <div class="comment-meta py-2">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <h6>Pryce R.</h6><a class="post-date" href="#">2h ago</a>
+                                            <h6>Игорь Станиславский</h6><a class="post-date" href="#">2 часа назад</a>
                                         </div>
-                                        <p>I strongly recommend agency to EVERYONE interested in running a successful online business!</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                                        <p>Я настоятельно рекомендую агентство ВСЕМ, кто заинтересован в ведении успешного онлайн-бизнеса!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
                                     </div>
                                 </div>
                             </li>
@@ -291,9 +222,9 @@
                             <div class="comment-author"><img src="img/bg-img/t3.png" alt="author"></div>
                             <div class="comment-meta py-2">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h6>Juergen T.</h6><a class="post-date" href="#">41min ago</a>
+                                    <h6>Юрий Жернов</h6><a class="post-date" href="#">41 минута назад</a>
                                 </div>
-                                <p>Absolutely wonderful! I wish I would have thought of it first. I would be lost without agency.</p><a class="like" href="#">Like</a><a class="reply" href="#">Reply</a>
+                                <p>Абсолютно замечательные!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
                             </div>
                         </div>
                     </li>
@@ -308,10 +239,10 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-12 col-sm-8">
                 <div class="cta-text mb-4 mb-sm-0">
-                    <h3 class="text-white mb-0">Let's start with the simple way to create a website.</h3>
+                    <h3 class="text-white mb-0">Интересный товар.</h3>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 text-sm-right"><a class="btn saasbox-btn white-btn" href="#">Buy Now</a></div>
+            <div class="col-12 col-sm-4 text-sm-right"><a class="btn saasbox-btn white-btn" href="#">Перейти</a></div>
         </div>
     </div>
 </section>
@@ -321,58 +252,50 @@
         <div class="row justify-content-between">
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-10 col-lg-3">
-                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-                    <!-- Newsletter Form-->
+                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                    <p>По всем вопросам сотрудничества, Вы можете связаться с нами через форму обратной связи и с помощью социальных сетей, указанных ниже</p>
                     <div class="newsletter-form">
                         <form action="#">
-                            <input class="form-control" type="email" placeholder="Enter email &amp; press enter">
+                            <input class="form-control" type="email" placeholder="Ваш email">
                             <button class="btn d-none" type="submit">Go</button>
                         </form>
                     </div>
-                    <!-- Footer Social Icon-->
                     <div class="footer-social-icon d-flex align-items-center"><a href="#" data-toggle="tooltip" data-placement="top" title="Facbook"><i class="fa fa-facebook"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a></div>
                 </div>
             </div>
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">Important Links</h5>
+                    <h5 class="widget-title">Оставить отзыв</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">About Licences</a></li>
-                        <li><a href="#" target="_blank">Help &amp; Support</a></li>
-                        <li><a href="#" target="_blank">Careers</a></li>
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Community &amp; Forum</a></li>
+                        <li><a href="#" target="_blank">о компании</a></li>
+                        <li><a href="#" target="_blank">о сайте</a></li>
+                        <li><a href="#" target="_blank">о товаре</a></li>
+                        <li><a href="#" target="_blank">о фильме</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">Our Products</h5>
+                    <h5 class="widget-title">Карта сайта</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Apland Landing</a></li>
-                        <li><a href="#" target="_blank">Ecaps Admin</a></li>
-                        <li><a href="#" target="_blank">Bigshop Ecommerce</a></li>
-                        <li><a href="#" target="_blank">Classy Multipurpose</a></li>
-                        <li><a href="#" target="_blank">Educamp Education</a></li>
-                        <li><a href="#" target="_blank">Champ Portfolio</a></li>
+                        <li><a href="#" target="_blank">Отзывы</a></li>
+                        <li><a href="#" target="_blank">Блог</a></li>
+                        <li><a href="#" target="_blank">Компании</a></li>
+                        <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>
                 </div>
             </div>
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <div class="footer-widget-area mb-70">
-                    <h5 class="widget-title">My Account</h5>
+                    <h5 class="widget-title">Правила</h5>
                     <ul>
-                        <li><a href="#" target="_blank">Community &amp; Forum</a></li>
-                        <li><a href="#" target="_blank">About Licences</a></li>
-                        <li><a href="#" target="_blank">Careers</a></li>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Help &amp; Support</a></li>
+                        <li><a href="#" target="_blank">FAQ</a></li>
+                        <li><a href="#" target="_blank">Информация для авторов</a></li>
+                        <li><a href="#" target="_blank">Информация для компаний</a></li>
+                        <li><a href="#" target="_blank">Лицензионное соглашение</a></li>
                     </ul>
                 </div>
             </div>
@@ -383,16 +306,16 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <!-- Copywrite Text-->
                 <div class="footer--content-text">
-                    <p class="mb-0">All rights reserved by <a href="#" target="_blank">Designing World</a></p>
+                    <p class="mb-0">2021 <a href="#" target="_blank">Отзовик</a></p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-5">
                 <!-- Footer Nav-->
                 <div class="footer-nav">
                     <ul class="d-flex">
-                        <li><a href="#" target="_blank">Privacy Policy</a></li>
-                        <li><a href="#" target="_blank">Terms &amp; Conditions</a></li>
-                        <li><a href="#" target="_blank">Get Support</a></li>
+                        <li><a href="#" target="_blank">О проекте</a></li>
+                        <li><a href="#" target="_blank">Политика</a></li>
+                        <li><a href="#" target="_blank">Поддержка</a></li>
                     </ul>
                 </div>
             </div>
@@ -400,8 +323,11 @@
                 <!-- Default dropup button-->
                 <div class="language-dropdown text-center text-lg-right mt-4 mt-lg-0">
                     <div class="btn-group dropup">
-                        <button class="btn saasbox-btn-2 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-sa"></span>Arabic</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-bd"></span>Bengali</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-us"></span>English</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-my"></span>Malay</a><a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-es"></span>Spanish</a></div>
+                        <button class="btn saasbox-btn-2 dropdown-toggle text-white" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Выбор языка</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-ru"></span>Русский</a>
+                            <a class="dropdown-item" href="#"><span class="mr-2 flag-icon flag-icon-us"></span>English</a>
+                        </div>
                     </div>
                 </div>
             </div>
