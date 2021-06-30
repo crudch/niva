@@ -73,7 +73,7 @@
         <div class="col-12">
             <div class="breadcrumb-content">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center">
+                    <ol class="breadcrumb justify-content-left">
                         <li class="breadcrumb-item"><a href="/">Главная</a></li>
                         <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы</a></li>
                         <li class="breadcrumb-item active" aria-current="page"><a href="#">"Большая кормушка"</a></li>
