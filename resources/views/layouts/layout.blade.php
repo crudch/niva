@@ -128,6 +128,13 @@
             </nav>
         </div>
     </div>
+    <div class="container mb-4">
+        <div class="row height d-flex justify-content-center align-items-center">
+            <div class="col-12">
+                <div class="form"> <i class="fa fa-search"></i> <input type="text" class="form-control form-input" placeholder="Поиск..."></div>
+            </div>
+        </div>
+    </div>
 </header>
 <!-- Welcome Area-->
 <section class="welcome-area hero2" id="home">
@@ -146,472 +153,28 @@
             <div class="col-12 col-md-6">
                 <!-- Content-->
                 <div class="welcome-content pr-3">
-                    <h2 class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">Build powerful responsive fastest website using it.</h2>
-                    <p class="mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
+                    <h2 class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">Будьте в курсе Читайте отзывы о компаниях вашего города, откройте для себя новые места.</h2>
+                    <p class="mb-4 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">Это надежный и многомерный шаблон, который можно использовать.</p>
                     <!-- Button Group-->
                     <div class="btn-group-one wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms"><a class="btn saasbox-btn white-btn mt-3" href="#">More About Us</a><a class="btn saasbox-btn-2 mt-3 ml-3 ml-sm-4 video-play-btn" href="https://www.youtube.com/watch?v=lFGvqvPh5jI" data-effect="mfp-zoom-in"><i class="mr-1 lni-play"></i>Play Video</a></div>
                 </div>
             </div>
             <div class="col-10 col-md-6">
-                <div class="welcome-thumb wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms"><img src="img/bg-img/hero-6.png" alt=""></div>
+                <div class="welcome-thumb wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms"><img src="img/bg-img/hero-6.svg" alt=""></div>
             </div>
         </div>
     </div>
 </section>
 <div class="container">
-    <div class="border-dashed"></div>
+    <div class="border-dashed mb-4"></div>
 </div>
-<!-- About Area-->
-<section class="about-area about2 section-padding-120">
-    <div class="container">
-        <!-- About Content Area-->
-        <div class="about-content">
-            <div class="row justify-content-between">
-                <!-- Single About Area-->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-about-area text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="icon mx-auto"><i class="lni-sun"></i></div>
-                        <h4>Web Design</h4>
-                        <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-                    </div>
-                </div>
-                <!-- Single About Area-->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-about-area text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                        <div class="icon mx-auto"><i class="lni-heart"></i></div>
-                        <h4>Branding</h4>
-                        <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-                    </div>
-                </div>
-                <!-- Single About Area-->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-about-area text-center wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                        <div class="icon mx-auto"><i class="lni-infinite"></i></div>
-                        <h4>Marketing</h4>
-                        <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-                    </div>
-                </div>
-                <!-- Single About Area-->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-about-area text-center wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
-                        <div class="icon mx-auto"><i class="lni-cart"></i></div>
-                        <h4>Ecommerce Solution</h4>
-                        <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row align-items-center justify-content-md-center justify-content-lg-between">
-            <!-- About Thumbnail Area-->
-            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                <div class="aboutUs-thumbnail mt-120 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms"><img class="w-100" src="img/bg-img/5.jpg" alt=""></div>
-            </div>
-            <!-- About Us Content Area-->
-            <div class="col-12 col-md-8 col-lg-6">
-                <div class="aboutUs-content mt-120 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-                    <div class="section-heading mb-5">
-                        <h6>Key features</h6>
-                        <h2>We focus on the growth of your business.</h2>
-                        <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                    </div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p><a class="btn saasbox-btn mt-5" href="#">Discover More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Features Area-->
-<section class="saasbox-features-area feature2 section-padding-120-90">
-    <!-- Background Shape-->
-    <div class="background-shape wow fadeInLeftBig" data-wow-duration="4000ms"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
-                <div class="section-heading text-center"><i class="lni-brush"></i>
-                    <h2><span>Our best </span> solutions</h2>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-lg-8 col-xxl-9">
-                <div class="row g-4">
-                    <!-- Single Feature Area-->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-wordpress"></i>
-                                <div class="fea-text">
-                                    <h6>WordPress Solution</h6><span>Ultimate Solution for WP</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Feature Area-->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-brush"></i>
-                                <div class="fea-text">
-                                    <h6>Frontend Solution</h6><span>Solution for Webs</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Feature Area           -->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-bar-chart"></i>
-                                <div class="fea-text">
-                                    <h6>Digital Branding</h6><span>Boot your sales</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Feature Area           -->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-wechat"></i>
-                                <div class="fea-text">
-                                    <h6>Live Chat Help</h6><span>Support 24h a day</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Feature Area        -->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-cog"></i>
-                                <div class="fea-text">
-                                    <h6>Easy Setup</h6><span>Solution for setup</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Feature Area  -->
-                    <div class="col-12 col-md-6">
-                        <div class="card feature-card wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
-                                <div class="fea-text">
-                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-10 col-md-7 col-lg-4 col-xxl-3">
-                <div class="card video-card video2 border-0 mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
-                    <div class="card-body p-0"><img src="img/bg-img/6.jpg" alt=""><a class="video-play-btn" href="https://www.youtube.com/watch?v=lFGvqvPh5jI"><i class="lni-play"></i><span class="video-sonar"></span></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Service Area-->
-<section class="service-area section-padding-120" id="service">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
-                <div class="section-heading text-center"><i class="lni-flower"></i>
-                    <h2>We do all <span>creative  </span> services</h2>
-                    <p>It's crafted with the latest trend of design &amp; coded with all modern approaches. It's a robust &amp; multi-dimensional usable template.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center g-5">
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-android"></i></div>
-                        <h4>Mobile Apps Developement</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card active wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-layout"></i></div>
-                        <h4>Modern Website Developement</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-pie-chart"></i></div>
-                        <h4>Digital Content &amp; SEO Marketing</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-wordpress"></i></div>
-                        <h4>WordPress 5.0 Ultimate Solution</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-sun"></i></div>
-                        <h4>Business Idea &amp; Creative Leads</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Service Area-->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-                <div class="card service-card wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-                    <div class="card-body">
-                        <div class="icon"><i class="lni-play"></i></div>
-                        <h4>Tutorial: Learning for future</h4>
-                        <p>It's crafted with the latest trend of design.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Pricing Plan Area-->
-<section class="saasbox-pricing-plan-area price2 section-padding-120 bg-gray">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
-                <div class="section-heading text-center">
-                    <h6>Pricing Plan</h6>
-                    <h2>Simple, Transparent Price</h2>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="pricing-table-switch mb-100">
-                    <ul class="nav nav-tabs border-bottom-0 justify-content-center" id="priceTab" role="tablist">
-                        <li class="nav-item"><a class="nav-link active" id="month--tab" data-toggle="tab" href="#monthly" role="tab" aria-controls="monthly" aria-selected="true">Monthly</a></li>
-                        <li class="nav-item"><a class="nav-link" id="yearly--tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><span class="popular-badge">Save 20%</span>Yearly</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="tab-content" id="priceTabContent">
-                    <div class="tab-pane fade show active" id="monthly" role="tabpanel" aria-labelledby="month--tab">
-                        <div class="row g-0 justify-content-center">
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-pizza"></i></div>
-                                        <div class="price">
-                                            <h5>Basic</h5>
-                                            <h2>$19</h2><span>per month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li class="times">1 Website License</li>
-                                            <li class="times">Free Support</li>
-                                            <li class="times">Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card active mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-offer"></i></div>
-                                        <div class="price">
-                                            <h5>Standard</h5>
-                                            <h2>$29</h2><span>per month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li>1 Website License</li>
-                                            <li class="times">Free Support</li>
-                                            <li class="times">Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-burger"></i></div>
-                                        <div class="price">
-                                            <h5>Business</h5>
-                                            <h2>$49</h2><span>per month</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li>1 Website License</li>
-                                            <li>Free Support</li>
-                                            <li>Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="yearly--tab">
-                        <div class="row g-0 justify-content-center">
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-pizza"></i></div>
-                                        <div class="price">
-                                            <h5>Basic</h5>
-                                            <h2>$39</h2><span>per year</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li class="times">1 Website License</li>
-                                            <li class="times">Free Support</li>
-                                            <li class="times">Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card active mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-offer"></i></div>
-                                        <div class="price">
-                                            <h5>Standard</h5>
-                                            <h2>$89</h2><span>per year</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li>1 Website License</li>
-                                            <li class="times">Free Support</li>
-                                            <li class="times">Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                            <!-- Single Pricing Plan-->
-                            <div class="col-12 col-sm-8 col-md-7 col-lg-4">
-                                <div class="card pricing-card mb-30">
-                                    <div class="pricing-heading d-flex align-items-center">
-                                        <div class="price-icon"><i class="lni-burger"></i></div>
-                                        <div class="price">
-                                            <h5>Business</h5>
-                                            <h2>$149</h2><span>per year</span>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-desc">
-                                        <ul class="pl-0">
-                                            <li>1 Month Usage</li>
-                                            <li>Lifetime Updates</li>
-                                            <li>1 Website License</li>
-                                            <li>Free Support</li>
-                                            <li>Download New Release</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-btn"><a class="btn saasbox-btn" href="#">Choose Plan</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Portfolio Area-->
-<section class="saasbox-portfolio-area section-padding-120">
-    <div class="container">
-        <div class="row align-items-end justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7 col-xxl-6">
-                <div class="section-heading mb-0">
-                    <h2>Check our latest awesome creative works</h2>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-5">
-                <div class="portfolio-btn pb-3 text-md-right mt-5 mt-md-0"><a class="btn saasbox-btn" href="portfolio-creative.html">View All Works</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="container px-0">
-        <div class="portfolio-slides-2 owl-carousel">
-            <!-- Single Portfolio Area-->
-            <div class="single-portfolio-area mx-3 mt-70 mb-80 no-boxshadow"><img src="img/bg-img/p5.jpg" alt="">
-                <!-- Ovarlay Content-->
-                <div class="overlay-content">
-                    <div class="portfolio-title"><a href="portfolio-details-one.html">Portfolio Title</a></div>
-                    <div class="portfolio-links"><a class="image-popup" href="img/bg-img/p5.jpg" data-effect="mfp-zoom-in" title="Portfolio Title"><i class="lni-play"></i></a><a href="#"><i class="lni-heart"></i></a><a href="portfolio-details-one.html"><i class="lni-link"></i></a></div>
-                </div>
-            </div>
-            <!-- Single Portfolio Area-->
-            <div class="single-portfolio-area mx-3 mt-70 mb-80 no-boxshadow"><img src="img/bg-img/p6.jpg" alt="">
-                <!-- Ovarlay Content-->
-                <div class="overlay-content bg-gray">
-                    <div class="portfolio-title"><a href="portfolio-details-one.html">Portfolio Title</a></div>
-                    <div class="portfolio-links"><a class="image-popup" href="img/bg-img/p6.jpg" data-effect="mfp-zoom-in" title="Portfolio Title"><i class="lni-play"></i></a><a href="#"><i class="lni-heart"></i></a><a href="portfolio-details-one.html"><i class="lni-link"></i></a></div>
-                </div>
-            </div>
-            <!-- Single Portfolio Area-->
-            <div class="single-portfolio-area mx-3 mt-70 mb-80 no-boxshadow"><img src="img/bg-img/p7.jpg" alt="">
-                <!-- Ovarlay Content-->
-                <div class="overlay-content bg-gray">
-                    <div class="portfolio-title"><a href="portfolio-details-one.html">Portfolio Title</a></div>
-                    <div class="portfolio-links"><a class="image-popup" href="img/bg-img/p7.jpg" data-effect="mfp-zoom-in" title="Portfolio Title"><i class="lni-play"></i></a><a href="#"><i class="lni-heart"></i></a><a href="portfolio-details-one.html"><i class="lni-link"></i></a></div>
-                </div>
-            </div>
-            <!-- Single Portfolio Area-->
-            <div class="single-portfolio-area mx-3 mt-70 mb-80 no-boxshadow"><img src="img/bg-img/p8.jpg" alt="">
-                <!-- Ovarlay Content-->
-                <div class="overlay-content bg-gray">
-                    <div class="portfolio-title"><a href="portfolio-details-one.html">Portfolio Title</a></div>
-                    <div class="portfolio-links"><a class="image-popup" href="img/bg-img/p8.jpg" data-effect="mfp-zoom-in" title="Portfolio Title"><i class="lni-play"></i></a><a href="#"><i class="lni-heart"></i></a><a href="portfolio-details-one.html"><i class="lni-link"></i></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- Client Feedback Area-->
-<section class="client-feedback-area d-md-flex align-items-center justify-content-between section-padding-120 bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/7.jpg');">
+<section class="client-feedback-area flex-column d-md-flex align-items-center justify-content-between section-padding-120 bg-img bg-overlay jarallax" style="background-image: url('/img/custom-img/mountain.jpg');">
     <!-- Client Feedback Heading-->
     <div class="client-feedback-heading">
         <div class="section-heading mb-0 text-right white">
-            <h6>Testimonials</h6>
-            <h2 class="mb-0">Our Customers Feedback</h2>
+            <h6>ЛУчшие отзывы</h6>
+            <h2 class="mb-4">Самые правдивейшие и честнейшие отзывы во всём мультивёрсе, по-любому</h2>
         </div>
     </div>
     <!-- Client Feedback Content-->
@@ -619,52 +182,161 @@
         <div class="client-feedback-slides owl-carousel">
             <!-- Single Feedback Slide-->
             <div class="card feedback-card bg-white">
-                <div class="card-body"><i class="lni-quotation"></i>
-                    <p>You've saved our business! Thanks guys, keep up the good work! The best on the net!</p>
+                <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="img/bg-img/t1.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
                         <div class="client-name">
-                            <h6>Lim Jannat</h6>
-                            <p>UX/UI Designer</p>
+                            <h6>Григорий Петров</h6>
+                            <p>Хозяин</p>
                         </div>
                     </div>
+                    <p>Вы спасли наш бизнес! Спасибо, ребята, продолжайте в том же духе! Лучшее в сети!</p>
+                    <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                    </ul>
                 </div>
             </div>
             <!-- Single Feedback Slide-->
             <div class="card feedback-card bg-white">
-                <div class="card-body"><i class="lni-quotation"></i>
-                    <p>I STRONGLY recommend agency to EVERYONE interested in running a successful business!</p>
+                <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="img/bg-img/t2.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
                         <div class="client-name">
-                            <h6>Pryce R.</h6>
+                            <h6>Ахмет АХМЕТ</h6>
                             <p>CEO</p>
                         </div>
                     </div>
+                    <p>НАСТОЯТЕЛЬНО рекомендую агентство ВСЕМ, кто заинтересован в ведении успешного бизнеса!</p>
+                    <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star"></i></li>
+                    </ul>
                 </div>
             </div>
             <!-- Single Feedback Slide-->
             <div class="card feedback-card bg-white">
-                <div class="card-body"><i class="lni-quotation"></i>
-                    <p>Absolutely wonderful! I wish I would have thought of it first. I would be lost without agency.</p>
+                <div class="card-body">
                     <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="img/bg-img/t3.png" alt=""></div>
+                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
                         <div class="client-name">
-                            <h6>Cy N.</h6>
-                            <p>Developer</p>
+                            <h6>Син Джин По</h6>
+                            <p>營成</p>
+                        </div>
+                    </div>
+                    <p>我向有興趣經營成功的每個人強烈推薦代理商！</p>
+                    <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star"></i></li>
+                        <li class="active"><i class="lni-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Single Feedback Slide-->
+            <div class="card feedback-card bg-white">
+                <div class="card-body">
+                    <div class="client-info d-flex align-items-center">
+                        <div class="client-thumb"><img src="/img/custom-img/man.png" alt=""></div>
+                        <div class="client-name">
+                            <h6>Ваня Д.</h6>
+                            <p>Ваня</p>
+                        </div>
+                    </div>
+                    <p>Абсолютно замечательный! Хотел бы я сначала подумать об этом. Я бы потерялся без свободы воли.</p>
+                    <ul class="ratings-list d-flex align-items-center justify-content-center mb-3">
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                        <li class="active"><i class="lni-star-filled"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Area-->
+<section class="about-area about3 section-padding-120 bg-gray">
+    <div class="container">
+        <div class="hero--content--area">
+            <div class="row justify-content-center g-4">
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-dinner"></i>
+                            <h5>Поесть</h5>
+                            <p class="mb-0">Самые вкусные блюда</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Single Feedback Slide-->
-            <div class="card feedback-card bg-white">
-                <div class="card-body"><i class="lni-quotation"></i>
-                    <p>I STRONGLY recommend agency to EVERYONE interested in running a successful business!</p>
-                    <div class="client-info d-flex align-items-center">
-                        <div class="client-thumb"><img src="img/bg-img/t4.png" alt=""></div>
-                        <div class="client-name">
-                            <h6>Juergen T.</h6>
-                            <p>Business Owner</p>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-juice"></i>
+                            <h5>Бары</h5>
+                            <p class="mb-0">Побариться</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-coffee-cup"></i>
+                            <h5>Кофейни</h5>
+                            <p class="mb-0">Взбодриться</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="700ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-delivery"></i>
+                            <h5>Доставка еды</h5>
+                            <p class="mb-0">Прямо в кровать</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-shopify"></i>
+                            <h5>Магазины</h5>
+                            <p class="mb-0">Более 50000</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-taxi"></i>
+                            <h5>Такси</h5>
+                            <p class="mb-0">Довезут за 60 секунд</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-spray"></i>
+                            <h5>Салоны красоты</h5>
+                            <p class="mb-0">Помоем, Подкрасим, Подкачаем, Ощипаем </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Hero Card-->
+                <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="700ms" data-wow-duration="1000ms">
+                        <div class="card-body"><i class="lni-baloon"></i>
+                            <h5>Развлечения</h5>
+                            <p class="mb-0">Для всех и каждого</p>
                         </div>
                     </div>
                 </div>
@@ -678,9 +350,9 @@
         <div class="row justify-content-center">
             <div class="col-12 col-sm-9 col-lg-7 col-xxl-6">
                 <div class="section-heading text-center">
-                    <h6>Latest info</h6>
-                    <h2>All Trending News</h2>
-                    <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>
+                    <h2>Блог</h2>
+                    <h6>Свежие записи</h6>
+                    <p>Он создан с учетом последних тенденций дизайна и закодирован с учетом всех современных подходов. Это надежный и многомерный шаблон. Его можно использовать!</p>
                 </div>
             </div>
         </div>
@@ -689,31 +361,28 @@
         <div class="row justify-content-center g-5">
             <!-- Blog Card-->
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="img/bg-img/blog4.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">News</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog Card    -->
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                    <div class="image-wrap mb-4"><img src="img/bg-img/blog5.jpg" alt="">
-                        <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=lFGvqvPh5jI"><i class="lni-play"></i></a></span>
-                    </div>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Agency</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>The reason why everyone love business.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>4 min read</span></div>
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_00.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
+                            <h4>Семь рецептов засолки огурцов.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
                     </div>
                 </div>
             </div>
             <!-- Blog Card-->
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="img/bg-img/blog6.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Trend</a><a class="post-title d-block mb-3" href="blog-card.html">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>3 min read</span></div>
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_01.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
+                            <h4>Семь лучших сортов огурцов.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Card-->
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="blog-card.html"><img src="/img/custom-img/cucamber_02.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="blog-card.html">Новости</a><a class="post-title d-block mb-3" href="blog-card.html">
+                            <h4>Семь самых крупных огурцов.</h4></a>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 1 минута</span></div>
                     </div>
                 </div>
             </div>
@@ -726,18 +395,12 @@
         <div class="row">
             <div class="col-12">
                 <div class="our-partner-slides owl-carousel">
-                    <div class="single-partner"><img src="img/partner-img/1.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/2.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/3.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/4.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/5.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/6.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/1.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/2.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/3.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/4.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/5.png" alt=""></div>
-                    <div class="single-partner"><img src="img/partner-img/6.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/camsoda.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/bally.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/canon.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/asus.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/art.png" alt=""></div>
+                    <div class="single-partner"><img src="/img/custom-img/outgunned.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -840,24 +503,24 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/default/classy-nav.min.js"></script>
-<script src="/js/waypoints.min.js"></script>
-<script src="/js/jquery.easing.min.js"></script>
-<script src="/js/default/jquery.scrollup.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/imagesloaded.pkgd.min.js"></script>
-<script src="/js/default/isotope.pkgd.min.js"></script>
-<script src="/js/jquery.magnific-popup.min.js"></script>
-<script src="/js/jquery.animatedheadline.min.js"></script>
-<script src="/js/jquery.counterup.min.js"></script>
-<script src="/js/wow.min.js"></script>
-<script src="/js/jarallax.min.js"></script>
-<script src="/js/jarallax-video.min.js"></script>
-<script src="/js/default/cookiealert.js"></script>
-<script src="/js/default/jquery.passwordstrength.js"></script>
-<script src="/js/default/mail.js"></script>
-<script src="/js/default/active.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/default/classy-nav.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/default/jquery.scrollup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/default/isotope.pkgd.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.animatedheadline.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jarallax.min.js"></script>
+<script src="js/jarallax-video.min.js"></script>
+<script src="js/default/cookiealert.js"></script>
+<script src="js/default/jquery.passwordstrength.js"></script>
+<script src="js/default/mail.js"></script>
+<script src="js/default/active.js"></script>
 </body>
 </html>
