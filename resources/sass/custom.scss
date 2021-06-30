@@ -1,1 +1,128 @@
-// тут будут кастомные стили типа
+.form {
+  position: relative;
+
+  .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+  }
+
+  span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+  }
+
+  &-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+  }
+
+}
+
+.left-pan {
+  padding-left: 7px;
+
+  i {
+    padding-left: 10px
+  }
+}
+
+.client-feedback-area .owl-stage-outer {
+  right: 0;
+}
+
+.client-feedback-content {
+  .owl-dots {
+    position: unset;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .feedback-card {
+    min-height: 400px;
+    position: relative;
+  }
+
+  .feedback-card i {
+    color: #ffac00;
+  }
+
+}
+
+.client-feedback-heading .section-heading {
+  max-width: unset;
+}
+
+.ratings-list {
+  padding-left: unset;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+/*.breakpoint-off .classynav ul li .dropdown {
+
+  transition-duration: 0s;
+
+}
+
+.breakpoint-off .classynav ul li:hover .dropdown,
+.breakpoint-off .classynav ul li:hover .megamenu {
+  -webkit-animation: fadeInUp 0ms ease-in;
+  animation: fadeInUp 0ms ease-in;
+}
+
+.breakpoint-off .classynav ul li.megamenu-item:focus .megamenu,
+.breakpoint-off .classynav ul li.megamenu-item:hover .megamenu {
+  top: 0;
+!important;
+}
+
+.classynav ul li.cn-dropdown-item,
+.classynav ul li.cn-dropdown-item ul li {
+  position: relative;
+  z-index: 1;
+}
+
+
+.lni-cup:before {
+  content: '\1F372';
+}
+
+.lni-star-half:before {
+  content: '\1F379';
+}
+
+.lni-cog:before {
+  content: '\2615';
+}
+
+.lni-map-marker:before {
+  content: '\1F69A';
+}
+
+.lni-rocket:before {
+  content: '\1F3EA';
+}
+
+.lni-grow:before {
+  content: '\1F695';
+}
+
+.lni-pie-chart:before {
+  content: '\1F485';
+}
+
+.lni-whatsapp:before {
+  content: '';
+  background: url("/img/custom-img/icons/eat.svg");
+  width: 40px;
+  height: 40px;
+}*/
