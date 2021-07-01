@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/single', function () {
     return view('single');
 });
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/blog-details', function () {
+    return view('blog-details');
+});

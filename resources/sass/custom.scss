@@ -126,3 +126,42 @@
   width: 40px;
   height: 40px;
 }*/
+
+.client-feedback-content .feedback-card .client-info .client-thumb {
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  max-width: 80px;
+  width: 80px;
+}
+
+.product-meta-title {
+  background-color: #fdd76e;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.client-feedback-heading {
+  padding: 50px;
+}
+
+.header2 .classy-navbar-toggler .navbarToggler span:nth-child(2), .header2 .classy-navbar-toggler .navbarToggler span:nth-child(3) {
+  background-color: #ffac00;
+}
+
+.bg-overlay--gray:after {
+  background-color: #d2d2d2;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: .85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#scrollIndicator {
+  background-color: #ffac00;
+}

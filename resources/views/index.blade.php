@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
-@section('title', 'Главная страница говна')
+@section('title', 'Отзовик')
 
 @section('content')
-    <h1>FUCK YOU</h1>
+    <h1>Платформа для размещения авторских отзывов</h1>
 @endsection
