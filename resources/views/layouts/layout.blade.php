@@ -35,9 +35,9 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="#">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Блог</a></li>
+                            <li><a href="/blog">Блог</a></li>
                             <li><a href="#">Компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
@@ -283,7 +283,7 @@
                 <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
                     <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
                             <h4>Десять рецептов варенья из ягод.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 2 минута</span></div>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 2 мин.</span></div>
                     </div>
                 </div>
             </div>
@@ -292,7 +292,7 @@
                 <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/park.jpg" alt=""></a>
                     <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
                             <h4>Куда пойти в выходные.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 4 минута</span></div>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 4 мин.</span></div>
                     </div>
                 </div>
             </div>
@@ -301,7 +301,7 @@
                 <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/accessories.jpg" alt=""></a>
                     <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
                             <h4>Обзор полезных аксессуаров.</h4></a>
-                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 3 минута</span></div>
+                        <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 3 мин.</span></div>
                     </div>
                 </div>
             </div>
@@ -365,7 +365,7 @@
                     <h5 class="widget-title">Карта сайта</h5>
                     <ul>
                         <li><a href="#" target="_blank">Отзывы</a></li>
-                        <li><a href="#" target="_blank">Блог</a></li>
+                        <li><a href="/blog" target="_blank">Блог</a></li>
                         <li><a href="#" target="_blank">Компании</a></li>
                         <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>
