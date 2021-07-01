@@ -75,7 +75,7 @@
                 <div class="row g-5">
                     <!-- Single Blog Post-->
                     <div class="col-12">
-                        <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries-1200.jpg" alt=""></a>
+                        <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="/blog-details"><img src="/img/custom-img/berries-1200.jpg" alt=""></a>
                             <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
                                     <h4>Десять рецептов варенья из ягод.</h4></a>
                                 <p>Блюда из ягод могут быть различными, начиная с нежных десертов и заканчивая необычными соусами. Их можно употреблять не только в свежем виде, но и замораживать на длительный срок, чтобы круглый год наслаждаться ими во всевозможных вариациях.</p>
