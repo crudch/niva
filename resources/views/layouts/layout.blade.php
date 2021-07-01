@@ -326,10 +326,10 @@
     </div>
 </div>
 <!-- Cookie Alert Area-->
-<div class="cookiealert mb-0" role="alert">
-    <p>This site uses cookies. We use cookies to ensure you get the best experience on our website. For details, please check our <a href="#" target="_blank"> Privacy Policy.</a></p>
-    <button class="btn btn-primary acceptcookies" type="button" aria-label="Close">I agree</button>
-</div>
+{{--<div class="cookiealert mb-0" role="alert">--}}
+{{--    <p>This site uses cookies. We use cookies to ensure you get the best experience on our website. For details, please check our <a href="#" target="_blank"> Privacy Policy.</a></p>--}}
+{{--    <button class="btn btn-primary acceptcookies" type="button" aria-label="Close">I agree</button>--}}
+{{--</div>--}}
 <!-- Footer Area-->
 <footer class="footer-area footer2 section-padding-120">
     <div class="container">
