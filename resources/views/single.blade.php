@@ -35,9 +35,9 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="#">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Блог</a></li>
+                            <li><a href="/blog">Блог</a></li>
                             <li><a href="#">Компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
@@ -50,37 +50,38 @@
     </div>
 </header>
 <!-- Breadcrumb Area-->
-{{--<div class="breadcrumb--area white-bg-breadcrumb">--}}
-{{--    <div class="container h-100">--}}
-{{--        <div class="row h-100 align-items-center">--}}
-{{--            <div class="col-12">--}}
-{{--                <div class="breadcrumb-content">--}}
-{{--                    <h2 class="breadcrumb-title">Product Details</h2>--}}
-{{--                    <nav aria-label="breadcrumb">--}}
-{{--                        <ol class="breadcrumb justify-content-center">--}}
-{{--                            <li class="breadcrumb-item"><a href="/">Главная</a></li>--}}
-{{--                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы "Большая кормушка"</a></li>--}}
-{{--                        </ol>--}}
-{{--                    </nav>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
+<div class="breadcrumb--area bg-img bg-overlay--gray jarallax" style="background-image: url('/img/custom-img/single.jpg');">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12">
+                <div class="breadcrumb-content">
+                    <h2 class="breadcrumb-title">Карточка фирмы</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="#">Отзывы</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзыв о "Большая кормушка"</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{--<div class="col-12">--}}
+{{--    <div class="breadcrumb-content">--}}
+{{--        <nav aria-label="breadcrumb">--}}
+{{--            <ol class="breadcrumb justify-content-left">--}}
+{{--                <li class="breadcrumb-item"><a href="/">Главная</a></li>--}}
+{{--                <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы</a></li>--}}
+{{--                <li class="breadcrumb-item active" aria-current="page"><a href="#">"Большая кормушка"</a></li>--}}
+{{--            </ol>--}}
+{{--        </nav>--}}
 {{--    </div>--}}
 {{--</div>--}}
 <!-- Product Details Area-->
 <div class="product-details-area product-details-page section-padding-120">
     <div class="container">
-        <div class="col-12">
-            <div class="breadcrumb-content">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-left">
-                        <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                        <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзывы</a></li>
-                        <li class="breadcrumb-item active" aria-current="page"><a href="#">"Большая кормушка"</a></li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
         <div class="card product-description-card mb-5">
             <h6 class="product-meta-title mb-0 pl-5 py-4">ЗАО "Большая кормушка"</h6>
             <div class="row g-0">
@@ -151,7 +152,7 @@
                                 </tr>
                                 <tr>
                                     <td class="px-3">Сайт компании:</td>
-                                    <td class="px-3"><a href="/">big-korm.com</a></td>
+                                    <td class="px-3"><a href="#">big-korm.com</a></td>
                                 </tr>
                                 <tr>
                                     <td class="px-3">Социальные сети:</td>
@@ -281,7 +282,7 @@
                     <h5 class="widget-title">Карта сайта</h5>
                     <ul>
                         <li><a href="#" target="_blank">Отзывы</a></li>
-                        <li><a href="#" target="_blank">Блог</a></li>
+                        <li><a href="/blog" target="_blank">Блог</a></li>
                         <li><a href="#" target="_blank">Компании</a></li>
                         <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>

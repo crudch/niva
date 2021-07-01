@@ -149,3 +149,15 @@
 .header2 .classy-navbar-toggler .navbarToggler span:nth-child(2), .header2 .classy-navbar-toggler .navbarToggler span:nth-child(3) {
   background-color: #ffac00;
 }
+
+.bg-overlay--gray:after {
+  background-color: #d2d2d2;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: .85;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
