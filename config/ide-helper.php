@@ -59,7 +59,7 @@ return [
     |
     */
 
-    'write_model_magic_where' => false,
+    'write_model_magic_where' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -70,7 +70,7 @@ return [
     |
     */
 
-    'write_model_external_builder_methods' => false,
+    'write_model_external_builder_methods' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'write_model_relation_count_properties' => false,
+    'write_model_relation_count_properties' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -96,7 +96,7 @@ return [
     |
     */
 
-    'write_eloquent_model_mixins' => false,
+    'write_eloquent_model_mixins' => true,
 
     /*
     |--------------------------------------------------------------------------
