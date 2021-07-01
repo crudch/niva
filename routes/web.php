@@ -24,3 +24,7 @@ Route::get('/single', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/blog-details', function () {
+    return view('blog-details');
+});
