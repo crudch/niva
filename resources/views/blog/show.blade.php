@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\Models\Article $article
+ */
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -7,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Новость</title>
+    <title>{{ $article->title }}</title>
     <!-- Favicon-->
     <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
@@ -23,7 +28,7 @@
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="/img/core-img/logo-white.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -37,7 +42,7 @@
                         <ul id="corenav">
                             <li><a href="/">Главная</a></li>
                             <li><a href="#">Отзывы</a></li>
-                            <li><a href="/blog">Блог</a></li>
+                            <li><a href="{{ route('blog.index') }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
@@ -52,17 +57,17 @@
 <!-- Scroll Indicator-->
 <div id="scrollIndicator"></div>
 <!-- Breadcrumb Area-->
-<div class="breadcrumb--area bg-img bg-overlay jarallax" style="background-image: url('/img/custom-img/berries-1920.jpg');">
+<div class="breadcrumb--area bg-img bg-overlay jarallax" style="background-image: url('{{ $article->img }}');">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="breadcrumb-content">
-                    <h2 class="breadcrumb-title">Новость</h2>
+                    <h2 class="breadcrumb-title">{{ $article->title }}</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Новости</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Десять рецептов варенья из ягод</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('blog.index') }}">Блог</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">{{ $article->rubric->title }}</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -77,14 +82,11 @@
             <div class="post--like-post"><a href="#"><i class="lni-heart"></i></a><span>267 Like</span></div>
             <div class="col-12 col-sm-10 col-md-8">
                 <!-- Blog Details Area-->
-                <div class="single-blog-details-area"><img class="post-thumbnail mb-5" src="/img/custom-img/berries-1200.jpg" alt="">
-                    <div class="post-date mb-2">01.06.2021</div>
-                    <h2 class="mb-3">Десять рецептов варенья из ягод.</h2>
+                <div class="single-blog-details-area"><img class="post-thumbnail mb-5" src="{{ $article->img }}" alt="">
+                    <div class="post-date mb-2">{{ $article->created_at->format('d.m.Y') }}</div>
+                    <h2 class="mb-3">{{ $article->title }}</h2>
                     <div class="post-meta mb-5"><a class="post-author" href="#">Редакция Отзовик</a><a class="post-tutorial" href="#">Илья Абрамов</a></div>
-                    <p>Блюда из ягод могут быть различными, начиная с нежных десертов и заканчивая необычными соусами. Их можно употреблять не только в свежем виде, но и замораживать на длительный срок, чтобы круглый год наслаждаться ими во всевозможных вариациях.</p>
-                    <h4 class="mb-3">Не знаете, как приготовить ягоды в домашних условиях?</h4>
-                    <p>Не беда! Настоятельно рекомендуем обратить внимание на нашу подборку, в которой вы найдёте лучшие рецепты с ягодами на любой вкус.</p>
-                    <p>Готовьте полезные десерты, ароматную выпечку, сытные вторые блюда и лёгкие салатики. Варианты, что можно приготовить с ягодами, помогут вам питаться вкусной и здоровой пищей без особого труда.</p>
+                    <p>{!! $article->body !!}</p>
                 </div>
                 <!-- Post Tag & Share Button-->
                 <div class="post-tag-share-button d-sm-flex align-items-center justify-content-between my-5">
@@ -106,7 +108,7 @@
                         <!-- Single Comment Area-->
                         <li class="single_comment_area">
                             <div class="comment-content d-flex">
-                                <div class="comment-author"><img src="img/bg-img/t4.png" alt="author"></div>
+                                <div class="comment-author"><img src="/img/bg-img/t4.png" alt="author"></div>
                                 <div class="comment-meta py-2">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6>Иван Пантелеев</h6><a class="post-date" href="#">3 часа назад</a>
@@ -118,7 +120,7 @@
                                 <!-- Single Comment Area-->
                                 <li class="single_comment_area">
                                     <div class="comment-content d-flex">
-                                        <div class="comment-author"><img src="img/bg-img/t2.png" alt="author"></div>
+                                        <div class="comment-author"><img src="/img/bg-img/t2.png" alt="author"></div>
                                         <div class="comment-meta py-2">
                                             <div class="d-flex align-items-center justify-content-between">
                                                 <h6>Игорь Станиславский</h6><a class="post-date" href="#">2 часа назад</a>
@@ -132,7 +134,7 @@
                         <!-- Single Comment Area-->
                         <li class="single_comment_area">
                             <div class="comment-content d-flex">
-                                <div class="comment-author"><img src="img/bg-img/t3.png" alt="author"></div>
+                                <div class="comment-author"><img src="/img/bg-img/t3.png" alt="author"></div>
                                 <div class="comment-meta py-2">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6>Юрий Жернов</h6><a class="post-date" href="#">41 минута назад</a>
@@ -185,7 +187,7 @@
         <div class="row justify-content-between">
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-10 col-lg-3">
-                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="/img/core-img/logo-white.png" alt=""></a>
                     <p>По всем вопросам сотрудничества, Вы можете связаться с нами через форму обратной связи и с помощью социальных сетей, указанных ниже</p>
                     <div class="newsletter-form">
                         <form action="#">
@@ -268,22 +270,22 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/default/classy-nav.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/default/jquery.scrollup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/default/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.animatedheadline.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jarallax.min.js"></script>
-<script src="js/jarallax-video.min.js"></script>
-<script src="js/default/scrollindicator.js"></script>
-<script src="js/default/active.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/default/classy-nav.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/default/jquery.scrollup.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/default/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.animatedheadline.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jarallax.min.js"></script>
+<script src="/js/jarallax-video.min.js"></script>
+<script src="/js/default/scrollindicator.js"></script>
+<script src="/js/default/active.js"></script>
 </body>
 </html>

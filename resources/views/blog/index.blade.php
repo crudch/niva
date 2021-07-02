@@ -1,3 +1,10 @@
+<?php
+/**
+ * @var \App\Models\Rubric[] $rubrics
+ * @var \App\Models\Article[] $articles
+ * @var \App\Models\Article[] $news
+ */
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -37,7 +44,7 @@
                         <ul id="corenav">
                             <li><a href="/">Главная</a></li>
                             <li><a href="#">Отзывы</a></li>
-                            <li><a href="/blog">Блог</a></li>
+                            <li><a href="{{ route('blog.index') }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
@@ -73,66 +80,27 @@
         <div class="row justify-content-between">
             <div class="col-12 col-md-7">
                 <div class="row g-5">
+                    @foreach($articles as $article)
                     <!-- Single Blog Post-->
                     <div class="col-12">
-                        <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="/blog-details"><img src="/img/custom-img/berries-1200.jpg" alt=""></a>
-                            <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                    <h4>Десять рецептов варенья из ягод.</h4></a>
-                                <p>Блюда из ягод могут быть различными, начиная с нежных десертов и заканчивая необычными соусами. Их можно употреблять не только в свежем виде, но и замораживать на длительный срок, чтобы круглый год наслаждаться ими во всевозможных вариациях.</p>
+                        <div class="card blog-card border-0 no-boxshadow rounded-0">
+                            <a class="d-block mb-4" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                <img src="{{ $article->img }}" alt="{{ $article->title }}">
+                            </a>
+                            <div class="post-content">
+                                <a class="d-block mb-1" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->rubric->title }}</a>
+                                <a class="post-title d-block mb-3" href="#">
+                                    <h4>{{ $article->title }}</h4>
+                                </a>
+                                <p>{{ $article->description }}</p>
                                 <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Blog Post-->
-                    <div class="col-12">
-                        <div class="card blog-card border-0 no-boxshadow rounded-0">
-                            <div class="image-wrap mb-4"><img src="/img/custom-img/park-1200.jpg" alt="">
-                                <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/"><i class="lni-play"></i></a></span>
-                            </div>
-                            <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                    <h4>Куда пойти в выходные.</h4></a>
-                                <p>Главные достопримечательности ВДНХ: грандиозный фонтан «Дружба народов», колесо обозрения, Музей космонавтики, в котором собрано порядка 100 тысяч тематических экспонатов, Дом бабочек с роскошными оранжереями и живыми экзотическими насекомыми, «Москвариум», где живет около 8 тысяч морских обитателей.</p>
-                                <div class="post-meta"><span class="text-muted">Время чтения 4 мин.</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Blog Post-->
-                    <div class="col-12">
-                        <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/accessories-1200.jpg" alt=""></a>
-                            <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                    <h4>Обзор полезных аксессуаров.</h4></a>
-                                <p>Еще один аксессуар, который я приобрел до официального начала продаж в России. В какой-то момент мне надоело, что мои зонтики ломаются через два-три месяца, решил раскошелиться и приобрести хорошую вещь. Зонтик этот, кстати, довольно дорогой, из китайского интернет-магазина я его заказывал за 1 500 рублей, а у нас он стоит все 2 000.</p>
-                                <div class="post-meta"><span class="text-muted">Время чтения 3 мин.</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Blog Post-->
-{{--                    <div class="col-12">--}}
-{{--                        <div class="card blog-card border-0 no-boxshadow rounded-0">--}}
-{{--                            <div class="image-wrap mb-4"><img src="img/bg-img/blog19.jpg" alt="">--}}
-{{--                                <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=lFGvqvPh5jI"><i class="lni-play"></i></a></span>--}}
-{{--                            </div>--}}
-{{--                            <div class="post-content"><a class="d-block mb-1" href="#">News</a><a class="post-title d-block mb-3" href="#">--}}
-{{--                                    <h4>Seven ways agency can improve your business.</h4></a>--}}
-{{--                                <p>It's crafted with the latest trend of design & coded with all modern approaches. It's a robust & multi-dimensional usable template.</p>--}}
-{{--                                <div class="post-meta"><span class="text-muted">2 min read</span></div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
+                    @endforeach
                 </div>
                 <!-- Pagination Area-->
-                <div class="saasbox-pagination-area mb-5 mb-lg-0 mt-5">
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">...</a></li>
-                            <li class="page-item"><a class="page-link" href="#">9</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                {{ $articles->links('particles.paginate') }}
             </div>
             <div class="col-12 col-md-5 col-lg-4">
                 <div class="blog-sidebar-area">
@@ -148,40 +116,33 @@
                     <div class="single-widget-area mb-5">
                         <h4 class="widget-title mb-30">Категории</h4>
                         <ul class="catagories-list pl-0">
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Рестораны<span class="text-muted ml-2">(9)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Бары<span class="text-muted ml-2">(16)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Кофейни<span class="text-muted ml-2">(21)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Доставка еды<span class="text-muted ml-2">(8)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Магазины<span class="text-muted ml-2">(13)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Такси<span class="text-muted ml-2">(6)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Салоны красоты<span class="text-muted ml-2">(11)</span></a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Развлечения<span class="text-muted ml-2">(4)</span></a></li>
+                            @foreach($rubrics as $rubric)
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>{{ $rubric->title }}
+                                        <span class="text-muted ml-2">({{ $rubric->articles_count }})</span>
+                                    </a>
+                                </li>
+                            @endforeach
                         </ul>
                     </div>
                     <!-- Single Widget Area-->
                     <div class="single-widget-area mb-5">
                         <h4 class="widget-title mb-30">Новые записи</h4>
+                        @foreach($news as $article)
                         <!-- Single Recent Post-->
                         <div class="single-recent-post d-flex align-items-center">
-                            <div class="post-thumb"><a href="#"><img src="/img/custom-img/berries.jpg" alt=""></a></div>
-                            <div class="post-content"><a class="post-title" href="#">Десять рецептов варенья из ягод.</a>
-                                <p class="post-date">01.06.2021</p>
+                            <div class="post-thumb">
+                                <a href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                    <img src="{{ $article->img }}" alt="">
+                                </a>
+                            </div>
+                            <div class="post-content">
+                                <a class="post-title" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->title }}</a>
+                                <p class="post-date">{{ $article->created_at->format('d.m.Y') }}</p>
                             </div>
                         </div>
-                        <!-- Single Recent Post-->
-                        <div class="single-recent-post d-flex align-items-center">
-                            <div class="post-thumb"><a href="#"><img src="/img/custom-img/park.jpg" alt=""></a></div>
-                            <div class="post-content"><a class="post-title" href="#">Куда пойти в выходные.</a>
-                                <p class="post-date">02.06.2021</p>
-                            </div>
-                        </div>
-                        <!-- Single Recent Post-->
-                        <div class="single-recent-post d-flex align-items-center">
-                            <div class="post-thumb"><a href="#"><img src="/img/custom-img/accessories.jpg" alt=""></a></div>
-                            <div class="post-content"><a class="post-title" href="#">Обзор полезных аксессуаров.</a>
-                                <p class="post-date">03.06.2021</p>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                     <!-- Single Widget Area-->
                     <div class="single-widget-area">
