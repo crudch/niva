@@ -32,7 +32,7 @@ class ArticleFactory extends Factory
             'rubric_id'   => $this->faker->randomElement($ids_rubrics),
             'title'       => $title = $this->faker->realText(40),
             'slug'        => \Str::slug($title . '-' . ++$number),
-            'img'         => 'https://picsum.photos/640/480',
+            'img'         => 'https://picsum.photos/640/480?random=' . $number,
             'description' => \Str::limit($text = $this->faker->realText(1000), 100, ''),
             'body'        => $text,
             'created_at'  => $dum = $date->modify('+' . random_int(1, 3) . 'day')

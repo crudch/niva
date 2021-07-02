@@ -40,6 +40,19 @@ class Article extends Model
 {
     use HasFactory, SoftDeletes;
 
+
+
+    /**
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function rubric()
     {
         return $this->belongsTo(Rubric::class, 'rubric_id', 'id');

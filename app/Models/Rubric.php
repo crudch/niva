@@ -42,6 +42,14 @@ class Rubric extends Model
     public $timestamps = false;
 
     /**
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function articles()
