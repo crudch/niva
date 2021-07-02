@@ -88,8 +88,8 @@
                                 <img src="{{ $article->img }}" alt="{{ $article->title }}">
                             </a>
                             <div class="post-content">
-                                <a class="d-block mb-1" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->rubric->title }}</a>
-                                <a class="post-title d-block mb-3" href="#">
+                                <a class="d-block mb-1" href="#">{{ $article->rubric->title }}</a>
+                                <a class="post-title d-block mb-3" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
                                     <h4>{{ $article->title }}</h4>
                                 </a>
                                 <p>{{ $article->description }}</p>
