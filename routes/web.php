@@ -1,44 +1,37 @@
 <?php
 
-use App\Models\Rubric;
 use App\Models\Article;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('index');
 });
 
+Route::group([
+    'prefix' => 'blog',
+    'as' => 'blog.'
+], static function () {
+    Route::get('/', [BlogController::class, 'index'])->name('index');
+    Route::get('/{slug}/{article}', [BlogController::class, 'show'])->name('show');
+});
+
+
+
 Route::get('/single', function () {
     return view('single');
 });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
 
 Route::get('/blog-details', function () {
     return view('blog-details');
 });
 
-Route::get('/test', function () {
-    $articles = Article::latest('id')
-        ->with('rubric')
-        ->where('rubric_id', 1)
-        ->take(30)
-        ->get();
+Route::get('/blog-category', function () {
+    return view('blog-category');
+});
 
-    foreach ($articles as $article) {
-        dump($article->toArray());
-    }
+Route::get('/profile', function () {
+    return view('profile');
 });

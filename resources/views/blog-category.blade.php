@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Профиль</title>
+    <title>Категория</title>
     <!-- Favicon-->
     <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
@@ -50,16 +50,17 @@
     </div>
 </header>
 <!-- Breadcrumb Area-->
-<div class="breadcrumb--area bg-img bg-overlay jarallax" style="background-image: url('/img/custom-img/profile.jpg');">
+<div class="breadcrumb--area bg-img bg-overlay jarallax" style="background-image: url('/img/custom-img/category.jpg');">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="breadcrumb-content">
-                    <h2 class="breadcrumb-title">Профиль</h2>
+                    <h2 class="breadcrumb-title">Категория</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                            <li class="breadcrumb-item"><a href="#">Профиль</a></li>
+                            <li class="breadcrumb-item"><a href="#">Блог</a></li>
+                            <li class="breadcrumb-item"><a href="#">Категория</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -84,91 +85,28 @@
         <div class="row g-5">
             <!-- Single Blog Post-->
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog4.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">News</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
+                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Десять рецептов варенья из ягод.</h4></a>
+                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
                     </div>
                 </div>
             </div>
             <!-- Single Blog Post-->
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0">
-                    <div class="image-wrap mb-4"><img src="img/bg-img/blog5.jpg" alt="">
-                        <!-- Video--><span class="video-content"><a class="video-play-btn" href="#"><i class="lni-play"></i></a></span>
-                    </div>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Agency</a><a class="post-title d-block mb-3" href="#">
-                            <h4>The reason why everyone love business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
+                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Десять рецептов варенья из ягод.</h4></a>
+                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
                     </div>
                 </div>
             </div>
             <!-- Single Blog Post-->
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog6.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Trend</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0">
-                    <div class="image-wrap mb-4"><img src="img/bg-img/blog13.jpg" alt="">
-                        <!-- Video--><span class="video-content"><a class="video-play-btn" href="#"><i class="lni-play"></i></a></span>
-                    </div>
-                    <div class="post-content"><a class="d-block mb-1" href="#">News</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog14.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Agency</a><a class="post-title d-block mb-3" href="#">
-                            <h4>The reason why everyone love business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog15.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Trend</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0">
-                    <div class="image-wrap mb-4"><img src="img/bg-img/blog16.jpg" alt="">
-                        <!-- Video--><span class="video-content"><a class="video-play-btn" href="#"><i class="lni-play"></i></a></span>
-                    </div>
-                    <div class="post-content"><a class="d-block mb-1" href="#">News</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog17.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Agency</a><a class="post-title d-block mb-3" href="#">
-                            <h4>The reason why everyone love business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="img/bg-img/blog18.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Trend</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Seven ways agency can improve your business.</h4></a>
-                        <div class="post-meta"><span class="text-muted">2 min read</span></div>
+                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
+                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
+                            <h4>Десять рецептов варенья из ягод.</h4></a>
+                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
                     </div>
                 </div>
             </div>
