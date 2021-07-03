@@ -35,11 +35,27 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Query\Builder|Article onlyTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Article withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Article withoutTrashed()
  */
 class Article extends Model
 {
     use HasFactory, SoftDeletes;
 
+
+
+    /**
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
     public function rubric()
     {
         return $this->belongsTo(Rubric::class, 'rubric_id', 'id');

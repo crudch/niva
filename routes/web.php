@@ -42,7 +42,3 @@ Route::get('/test', function () {
         dump($article->toArray());
     }
 });
-
-Route::get('/profile', function () {
-    return view('profile');
-});
