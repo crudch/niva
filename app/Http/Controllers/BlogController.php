@@ -23,6 +23,15 @@ class BlogController extends Controller
         return view('blog.index', compact('rubrics', 'articles', 'news'));
     }
 
+    public function rubric(Rubric $rubric)
+    {
+        $articles = $rubric->articles()
+            ->latest('id')
+            ->paginate(3);
+
+        return view('blog.rubric', compact('rubric', 'articles'));
+    }
+
     public function show(string $rubric_slug, Article $article)
     {
         if ($article->rubric->slug !== $rubric_slug) {
