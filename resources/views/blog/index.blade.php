@@ -30,7 +30,7 @@
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="/img/core-img/logo-white.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -84,12 +84,12 @@
                     <!-- Single Blog Post-->
                     <div class="col-12">
                         <div class="card blog-card border-0 no-boxshadow rounded-0">
-                            <a class="d-block mb-4" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                            <a class="d-block mb-4" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
                                 <img src="{{ $article->img }}" alt="{{ $article->title }}">
                             </a>
                             <div class="post-content">
-                                <a class="d-block mb-1" href="#">{{ $article->rubric->title }}</a>
-                                <a class="post-title d-block mb-3" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                <a class="d-block mb-1" href="{{ route('blog.rubric', $article->rubric) }}">{{ $article->rubric->title }}</a>
+                                <a class="post-title d-block mb-3" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
                                     <h4>{{ $article->title }}</h4>
                                 </a>
                                 <p>{{ $article->description }}</p>
@@ -100,7 +100,7 @@
                     @endforeach
                 </div>
                 <!-- Pagination Area-->
-                {{ $articles->links('particles.paginate') }}
+                {{ $articles->onEachSide(0)->links('particles.paginate') }}
             </div>
             <div class="col-12 col-md-5 col-lg-4">
                 <div class="blog-sidebar-area">
@@ -118,7 +118,7 @@
                         <ul class="catagories-list pl-0">
                             @foreach($rubrics as $rubric)
                                 <li>
-                                    <a href="#">
+                                    <a href="{{ route('blog.rubric', $rubric) }}">
                                         <i class="fa fa-angle-double-right" aria-hidden="true"></i>{{ $rubric->title }}
                                         <span class="text-muted ml-2">({{ $rubric->articles_count }})</span>
                                     </a>
@@ -133,12 +133,12 @@
                         <!-- Single Recent Post-->
                         <div class="single-recent-post d-flex align-items-center">
                             <div class="post-thumb">
-                                <a href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
-                                    <img src="{{ $article->img }}" alt="">
+                                <a href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                    <img src="{{ $article->img }}" alt="{{ $article->title }}">
                                 </a>
                             </div>
                             <div class="post-content">
-                                <a class="post-title" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->title }}</a>
+                                <a class="post-title" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->title }}</a>
                                 <p class="post-date">{{ $article->created_at->format('d.m.Y') }}</p>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                     </div>
                     <!-- Single Widget Area-->
                     <div class="single-widget-area">
-                        <h4 class="widget-title mb-30">Популярные теги        </h4>
+                        <h4 class="widget-title mb-30">Популярные теги</h4>
                         <ul class="popular-tags clearfix pl-0">
                             <li><a href="#">ягода</a></li>
                             <li><a href="#">кольцо</a></li>
@@ -189,7 +189,7 @@
         <div class="row justify-content-between">
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-10 col-lg-3">
-                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="/img/core-img/logo-white.png" alt=""></a>
                     <p>По всем вопросам сотрудничества, Вы можете связаться с нами через форму обратной связи и с помощью социальных сетей, указанных ниже</p>
                     <div class="newsletter-form">
                         <form action="#">
@@ -218,7 +218,7 @@
                     <h5 class="widget-title">Карта сайта</h5>
                     <ul>
                         <li><a href="#" target="_blank">Отзывы</a></li>
-                        <li><a href="/blog" target="_blank">Блог</a></li>
+                        <li><a href="{{ route('blog.index') }}" target="_blank">Блог</a></li>
                         <li><a href="#" target="_blank">Компании</a></li>
                         <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>
@@ -272,24 +272,24 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/default/classy-nav.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/default/jquery.scrollup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/default/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.animatedheadline.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jarallax.min.js"></script>
-<script src="js/jarallax-video.min.js"></script>
-<script src="js/default/cookiealert.js"></script>
-<script src="js/default/jquery.passwordstrength.js"></script>
-<script src="js/default/mail.js"></script>
-<script src="js/default/active.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/default/classy-nav.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/default/jquery.scrollup.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/default/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.animatedheadline.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jarallax.min.js"></script>
+<script src="/js/jarallax-video.min.js"></script>
+<script src="/js/default/cookiealert.js"></script>
+<script src="/js/default/jquery.passwordstrength.js"></script>
+<script src="/js/default/mail.js"></script>
+<script src="/js/default/active.js"></script>
 </body>
 </html>

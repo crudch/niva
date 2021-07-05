@@ -43,7 +43,10 @@ class Article extends Model
 {
     use HasFactory, SoftDeletes;
 
-
+    /**
+     * @var string[]
+     */
+    protected $with = ['rubric'];
 
     /**
      * @return string

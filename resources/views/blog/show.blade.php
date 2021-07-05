@@ -66,8 +66,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('blog.index') }}">Блог</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="#">{{ $article->rubric->title }}</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('blog.index') }}">Блог</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('blog.rubric', $article->rubric) }}">{{ $article->rubric->title }}</a></li>
                         </ol>
                     </nav>
                 </div>

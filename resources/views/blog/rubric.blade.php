@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var \App\Models\Rubric $rubric
+ * @var \App\Models\Article[] $articles
+ */
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -23,7 +29,7 @@
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar navbar2 justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -37,7 +43,7 @@
                         <ul id="corenav">
                             <li><a href="/">Главная</a></li>
                             <li><a href="#">Отзывы</a></li>
-                            <li><a href="/blog">Блог</a></li>
+                            <li><a href="{{ route('blog.index')  }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
@@ -55,12 +61,14 @@
         <div class="row h-100 align-items-center">
             <div class="col-12">
                 <div class="breadcrumb-content">
-                    <h2 class="breadcrumb-title">Категория</h2>
+                    <h2 class="breadcrumb-title">{{ $rubric->title }}</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                            <li class="breadcrumb-item"><a href="#">Блог</a></li>
-                            <li class="breadcrumb-item"><a href="#">Категория</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('blog.index') }}">Блог</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a href="#">{{ $rubric->title }}</a>
+                            </li>
                         </ol>
                     </nav>
                 </div>
@@ -83,47 +91,28 @@
 <div class="saasbox--blog--area blog-full section-padding-120">
     <div class="container">
         <div class="row g-5">
+            @foreach($articles as $article)
             <!-- Single Blog Post-->
             <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Десять рецептов варенья из ягод.</h4></a>
-                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
+                <div class="card blog-card border-0 no-boxshadow rounded-0">
+                    <a class="d-block mb-4" href="{{ route('blog.show', ['rubric_slug' => $rubric->slug, $article]) }}">
+                        <img src="{{ $article->img }}" alt="{{ $article->title }}">
+                    </a>
+                    <div class="post-content">
+                        <a class="d-block mb-1" href="#">{{ $rubric->title }}</a>
+                        <a class="post-title d-block mb-3" href="{{ route('blog.show', ['rubric_slug' => $rubric->slug, $article]) }}">
+                            <h4>{{ $article->title }}</h4>
+                        </a>
+                        <div class="post-meta">
+                            <span class="text-muted">Время чтения 2 мин.</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Десять рецептов варенья из ягод.</h4></a>
-                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Blog Post-->
-            <div class="col-12 col-sm-6 col-lg-4">
-                <div class="card blog-card border-0 no-boxshadow rounded-0"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
-                    <div class="post-content"><a class="d-block mb-1" href="#">Рецепты</a><a class="post-title d-block mb-3" href="#">
-                            <h4>Десять рецептов варенья из ягод.</h4></a>
-                        <div class="post-meta"><span class="text-muted">Время чтения 2 мин.</span></div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
         <!-- Pagination Area-->
-        <div class="saasbox-pagination-area mt-5">
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">...</a></li>
-                    <li class="page-item"><a class="page-link" href="#">9</a></li>
-                </ul>
-            </nav>
-        </div>
+        {{ $articles->onEachSide(1)->links('particles.paginate') }}
     </div>
 </div>
 <!-- Cool Facts Area-->
@@ -145,7 +134,7 @@
         <div class="row justify-content-between">
             <!-- Footer Widget Area-->
             <div class="col-12 col-sm-10 col-lg-3">
-                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="img/core-img/logo-white.png" alt=""></a>
+                <div class="footer-widget-area mb-70"><a class="d-block mb-4" href="/"><img src="/img/core-img/logo-white.png" alt=""></a>
                     <p>По всем вопросам сотрудничества, Вы можете связаться с нами через форму обратной связи и с помощью социальных сетей, указанных ниже</p>
                     <div class="newsletter-form">
                         <form action="#">
@@ -228,24 +217,24 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/default/classy-nav.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/default/jquery.scrollup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/default/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.animatedheadline.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jarallax.min.js"></script>
-<script src="js/jarallax-video.min.js"></script>
-<script src="js/default/cookiealert.js"></script>
-<script src="js/default/jquery.passwordstrength.js"></script>
-<script src="js/default/mail.js"></script>
-<script src="js/default/active.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/default/classy-nav.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/default/jquery.scrollup.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/default/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.animatedheadline.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jarallax.min.js"></script>
+<script src="/js/jarallax-video.min.js"></script>
+<script src="/js/default/cookiealert.js"></script>
+<script src="/js/default/jquery.passwordstrength.js"></script>
+<script src="/js/default/mail.js"></script>
+<script src="/js/default/active.js"></script>
 </body>
 </html>
