@@ -14,7 +14,6 @@ class BlogController extends Controller
             ->get();
 
         $articles = Article::latest('id')
-            ->with('rubric')
             ->paginate(3);
 
         $news = Article::latest('id')
@@ -24,11 +23,9 @@ class BlogController extends Controller
         return view('blog.index', compact('rubrics', 'articles', 'news'));
     }
 
-    public function show($slug, Article $article)
+    public function show(string $rubric_slug, Article $article)
     {
-        $article->load('rubric');
-
-        if ($article->rubric->slug !== $slug) {
+        if ($article->rubric->slug !== $rubric_slug) {
             abort(404);
         }
 

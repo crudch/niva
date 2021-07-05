@@ -84,12 +84,12 @@
                     <!-- Single Blog Post-->
                     <div class="col-12">
                         <div class="card blog-card border-0 no-boxshadow rounded-0">
-                            <a class="d-block mb-4" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                            <a class="d-block mb-4" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
                                 <img src="{{ $article->img }}" alt="{{ $article->title }}">
                             </a>
                             <div class="post-content">
                                 <a class="d-block mb-1" href="#">{{ $article->rubric->title }}</a>
-                                <a class="post-title d-block mb-3" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                <a class="post-title d-block mb-3" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
                                     <h4>{{ $article->title }}</h4>
                                 </a>
                                 <p>{{ $article->description }}</p>
@@ -133,12 +133,12 @@
                         <!-- Single Recent Post-->
                         <div class="single-recent-post d-flex align-items-center">
                             <div class="post-thumb">
-                                <a href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
-                                    <img src="{{ $article->img }}" alt="">
+                                <a href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                    <img src="{{ $article->img }}" alt="{{ $article->title }}">
                                 </a>
                             </div>
                             <div class="post-content">
-                                <a class="post-title" href="{{ route('blog.show', ['slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->title }}</a>
+                                <a class="post-title" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">{{ $article->title }}</a>
                                 <p class="post-date">{{ $article->created_at->format('d.m.Y') }}</p>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                     </div>
                     <!-- Single Widget Area-->
                     <div class="single-widget-area">
-                        <h4 class="widget-title mb-30">Популярные теги        </h4>
+                        <h4 class="widget-title mb-30">Популярные теги</h4>
                         <ul class="popular-tags clearfix pl-0">
                             <li><a href="#">ягода</a></li>
                             <li><a href="#">кольцо</a></li>
@@ -218,7 +218,7 @@
                     <h5 class="widget-title">Карта сайта</h5>
                     <ul>
                         <li><a href="#" target="_blank">Отзывы</a></li>
-                        <li><a href="/blog" target="_blank">Блог</a></li>
+                        <li><a href="{{ route('blog.index') }}" target="_blank">Блог</a></li>
                         <li><a href="#" target="_blank">Компании</a></li>
                         <li><a href="#" target="_blank">Контакты</a></li>
                     </ul>

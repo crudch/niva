@@ -14,7 +14,7 @@ Route::group([
     'as' => 'blog.'
 ], static function () {
     Route::get('/', [BlogController::class, 'index'])->name('index');
-    Route::get('/{slug}/{article}', [BlogController::class, 'show'])->name('show');
+    Route::get('/{rubric_slug}/{article}', [BlogController::class, 'show'])->name('show');
 });
 
 
