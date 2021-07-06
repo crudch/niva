@@ -36,3 +36,15 @@ Route::get('/blog-category', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/404', function () {
+    return view('404');
+});
+
+Route::get('/reviews', function () {
+    return view('404');
+});

@@ -165,3 +165,32 @@
 #scrollIndicator {
   background-color: #ffac00;
 }
+
+.contact-mini-card .contact-mini-card-icon i {
+  background-color: #2787f5;
+}
+
+.contact-mini-card .contact-mini-card-icon::before {
+  display: none;
+}
+
+.contact-mini-card:nth-child(2) .contact-mini-card-icon i {
+  background-color: #00e676;
+}
+
+.contact-mini-card:nth-child(2) .contact-mini-card-icon::before {
+  display: none;
+}
+
+.contact-mini-card:last-child .contact-mini-card-icon i {
+  background-color: #039be5;
+  color: #fff;
+}
+
+.contact-mini-card:last-child .contact-mini-card-icon::before {
+  display: none;
+}
+
+.profile-area h3 {
+  font-size: 1rem;
+}
