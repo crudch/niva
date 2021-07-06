@@ -63,18 +63,46 @@ class RubricScreen extends Screen
     {
         return [
             RubricLayout::class,
+            // Добавить рубрику
             Layout::modal('createRubric', Layout::rows([
-                Input::make('title')->required()->title('Наименование'),
-                Input::make('slug')->title('URL адрес')
+                Input::make('title')
+                    ->required()
+                    ->title('Наименование'),
+                Input::make('slug')
+                    ->title('URL адрес')
+                    ->help('Можно оставить пустым, тогда url сформируется из Наименования')
             ]))->title('Создать рубрику')
-                ->applyButton('Создать')
+                ->applyButton('Создать'),
+
+            // Редактировать рубрику
+            Layout::modal('editRubric', Layout::rows([
+                Input::make('title')->required()->title('Заголовок'),
+                Input::make('slug')->title('URL адрес'),
+            ]))->async('asyncGetRubric')
+                ->title('Редактировать рубрику')
+                ->applyButton('Сохранить')
+        ];
+    }
+
+    public function asyncGetRubric(Rubric $rubric)
+    {
+        return [
+            'title' => $rubric->title,
+            'slug'  => $rubric->slug
         ];
     }
 
     public function create(RubricRequest $request)
     {
-        dd($request->all());
+        Rubric::create($request->all());
 
-        Toast::info('Рубрика создана');
+        Toast::success('Рубрика создана');
+    }
+
+    public function update(Rubric $rubric, RubricRequest $request)
+    {
+        $rubric->update($request->all());
+
+        Toast::success('Рубрика обновлена');
     }
 }

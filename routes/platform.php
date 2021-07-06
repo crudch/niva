@@ -35,7 +35,12 @@ Route::screen('/main', PlatformScreen::class)
     ->name('platform.main');
 
 Route::screen('/rubrics', RubricScreen::class)
-    ->name('platform.rubrics');
+    ->name('platform.rubrics')
+    ->breadcrumbs(function (Trail $trail) {
+        return $trail
+            ->parent('platform.index')
+            ->push('Рубрики');
+    });
 
 // Platform > Profile
 Route::screen('profile', UserProfileScreen::class)

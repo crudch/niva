@@ -2,6 +2,7 @@
 
 namespace App\Orchid;
 
+use Orchid\Support\Color;
 use Orchid\Platform\Dashboard;
 use Orchid\Platform\ItemPermission;
 use Orchid\Platform\OrchidServiceProvider;
@@ -31,7 +32,7 @@ class PlatformProvider extends OrchidServiceProvider
                     Menu::make('Рубрики')->icon('layers')->route('platform.rubrics'),
                     Menu::make('Статьи')->icon('book-open')
                 ]),
-            /*Menu::make('Example screen')
+            Menu::make('Example screen')
                 ->icon('monitor')
                 ->route('platform.example')
                 ->title('Navigation')
@@ -95,7 +96,7 @@ class PlatformProvider extends OrchidServiceProvider
             Menu::make(__('Roles'))
                 ->icon('lock')
                 ->route('platform.systems.roles')
-                ->permission('platform.systems.roles'),*/
+                ->permission('platform.systems.roles'),
         ];
     }
 
