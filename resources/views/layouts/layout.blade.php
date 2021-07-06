@@ -23,7 +23,7 @@
     <div class="container">
         <div class="classy-nav-container breakpoint-off">
             <nav class="classy-navbar navbar2 justify-content-between" id="saasboxNav">
-                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="img/core-img/logo.png" alt=""></a>
+                <!-- Logo--><a class="nav-brand mr-5" href="/"><img src="/img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler-->
                 <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
                 <!-- Menu-->
@@ -39,7 +39,7 @@
                             <li><a href="#">Отзывы</a></li>
                             <li><a href="/blog">Блог</a></li>
                             <li><a href="#">Компании</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="/contacts">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
                         <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>

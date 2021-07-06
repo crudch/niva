@@ -45,7 +45,7 @@
                             <li><a href="#">Отзывы</a></li>
                             <li><a href="{{ route('blog.index')  }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="/contacts">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
                         <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>
