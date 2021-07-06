@@ -2,8 +2,11 @@
 
 namespace App\Orchid\Layouts\Blog;
 
-use Orchid\Screen\Layouts\Table;
+use App\Models\Rubric;
 use Orchid\Screen\TD;
+use Illuminate\Support\Str;
+use Orchid\Screen\Layouts\Table;
+use Orchid\Screen\Actions\ModalToggle;
 
 class RubricLayout extends Table
 {
@@ -25,9 +28,28 @@ class RubricLayout extends Table
     protected function columns(): array
     {
         return [
-            TD::make('id', 'Id')->width('100px')->sort(),
-            TD::make('title', 'Title')->width('250px')->filter(TD::FILTER_TEXT),
+            TD::make('id', 'Id')
+                ->width('100px')
+                ->sort(),
+
+            TD::make('title', 'Title')
+                ->width('250px')
+                ->filter(TD::FILTER_TEXT),
+
             TD::make('slug', 'Slug'),
+
+            TD::make('actions')
+                ->align(TD::ALIGN_RIGHT)
+                ->render(static function (Rubric $rubric) {
+                    return ModalToggle::make('')
+                        ->icon('pencil')
+                        ->modal('editRubric')
+                        ->method('update')
+                        ->modalTitle('Рубрика: ' . Str::limit($rubric->title, 25))
+                        ->asyncParameters([
+                            'rubric' => $rubric->slug
+                        ]);
+                })
         ];
     }
 }

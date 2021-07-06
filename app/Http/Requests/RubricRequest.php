@@ -39,6 +39,7 @@ class RubricRequest extends FormRequest
                 'min:3',
                 'max:100',
                 Rule::unique('rubrics')
+                    ->ignore($this->get('rubric'), 'slug')
             ]
         ];
     }

@@ -25,6 +25,9 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Article query()
  * @mixin \Eloquent
  * @property-read \App\Models\Rubric $rubric
+ * @method static \Illuminate\Database\Query\Builder|Article onlyTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Article withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Article withoutTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereBody($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereDeletedAt($value)
@@ -35,9 +38,6 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereUpdatedAt($value)
- * @method static \Illuminate\Database\Query\Builder|Article onlyTrashed()
- * @method static \Illuminate\Database\Query\Builder|Article withTrashed()
- * @method static \Illuminate\Database\Query\Builder|Article withoutTrashed()
  */
 class Article extends Model
 {
