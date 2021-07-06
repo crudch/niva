@@ -28,7 +28,7 @@ class PlatformProvider extends OrchidServiceProvider
             Menu::make('Блог')
                 ->icon('arrow-down')
                 ->list([
-                    Menu::make('Рубрики')->icon('layers'),
+                    Menu::make('Рубрики')->icon('layers')->route('platform.rubrics'),
                     Menu::make('Статьи')->icon('book-open')
                 ]),
             /*Menu::make('Example screen')

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Orchid\Screens\Blog\RubricScreen;
 use App\Orchid\Screens\Examples\ExampleCardsScreen;
 use App\Orchid\Screens\Examples\ExampleChartsScreen;
 use App\Orchid\Screens\Examples\ExampleFieldsAdvancedScreen;
@@ -32,6 +33,9 @@ use Tabuna\Breadcrumbs\Trail;
 // Main
 Route::screen('/main', PlatformScreen::class)
     ->name('platform.main');
+
+Route::screen('/rubrics', RubricScreen::class)
+    ->name('platform.rubrics');
 
 // Platform > Profile
 Route::screen('profile', UserProfileScreen::class)
