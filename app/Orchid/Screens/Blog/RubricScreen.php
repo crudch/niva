@@ -47,7 +47,7 @@ class RubricScreen extends Screen
     public function commandBar(): array
     {
         return [
-            ModalToggle::make('Добавить рубрику')
+            ModalToggle::make('Создать рубрику')
                 ->icon('layers')
                 ->modal('createRubric')
                 ->method('create')
@@ -76,8 +76,11 @@ class RubricScreen extends Screen
 
             // Редактировать рубрику
             Layout::modal('editRubric', Layout::rows([
-                Input::make('title')->required()->title('Заголовок'),
-                Input::make('slug')->title('URL адрес'),
+                Input::make('title')
+                    ->required()
+                    ->title('Наименование'),
+                Input::make('slug')
+                    ->title('URL адрес'),
             ]))->async('asyncGetRubric')
                 ->title('Редактировать рубрику')
                 ->applyButton('Сохранить')
