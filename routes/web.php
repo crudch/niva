@@ -45,5 +45,9 @@ Route::get('/404', function () {
 });
 
 Route::get('/reviews', function () {
-    return view('404');
+    return view('reviews');
+});
+
+Route::get('/faq', function () {
+    return view('faq');
 });
