@@ -43,3 +43,7 @@ Route::get('/reviews', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('/reviews-category', function () {
+    return view('reviews-category');
+});

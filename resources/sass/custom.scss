@@ -194,3 +194,43 @@
 .profile-area h3 {
   font-size: 1rem;
 }
+
+.ratings-list {
+  z-index: 10;
+  color: #ffac00;
+  font-size: 24px;
+}
+
+.shop-card .product-img-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 320px;
+}
+
+.shop-card .product-img-wrap img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.ratings-list {
+  z-index: 10;
+  color: #ffac00;
+  font-size: 24px;
+}
+
+.shop-card .product-img-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 320px;
+}
+
+.shop-card .product-img-wrap img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
