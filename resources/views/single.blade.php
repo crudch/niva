@@ -132,49 +132,59 @@
                         </div>
                     </div>
                 </div>
-                <!-- Comments Area-->
-                <div class="comment_area mb-50 clearfix">
-                    <h4 class="mb-5">Комментарии</h4>
-                    <ol class="pl-0">
-                        <!-- Single Comment Area-->
-                        <li class="single_comment_area">
-                            <div class="comment-content d-flex">
-                                <div class="comment-author"><img src="img/bg-img/t4.png" alt="author"></div>
-                                <div class="comment-meta py-2">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <h6>Иван Пантелеев</h6><a class="post-date" href="#">3 часа назад</a>
-                                    </div>
-                                    <p>Вы спасли наш бизнес! Спасибо, ребята, продолжайте в том же духе!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
-                                </div>
-                            </div>
-                            <ol class="children">
-                                <!-- Single Comment Area-->
-                                <li class="single_comment_area">
-                                    <div class="comment-content d-flex">
-                                        <div class="comment-author"><img src="img/bg-img/t2.png" alt="author"></div>
-                                        <div class="comment-meta py-2">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <h6>Игорь Станиславский</h6><a class="post-date" href="#">2 часа назад</a>
-                                            </div>
-                                            <p>Я настоятельно рекомендую агентство ВСЕМ, кто заинтересован в ведении успешного онлайн-бизнеса!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
-                                        </div>
+                <!-- Reviews Area-->
+                <!-- Rating & Review Wrapper-->
+                <div class="rating-and-review-wrapper bg-white py-3 mb-3">
+                    <div class="container">
+                        <h6>Отзывы</h6>
+                        <div class="rating-review-content">
+                            <ul class="ps-0">
+                                <li class="single-user-review d-flex">
+                                    <div class="user-thumbnail"><img src="/img/custom-img/David.jpg" alt=""></div>
+                                    <div class="rating-comment">
+                                        <div class="rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div>
+                                        <p class="comment mb-0">Вчера вечером ходил вместе с подругой на Презентацию. Она проходила в Торговом центре. Нас встретили сотрудники, были с нами вежливыми. Стали рассказывать про товары. Очень понравилось! It's just amazing!</p><span class="name-date">01.06.2021</span>
                                     </div>
                                 </li>
-                            </ol>
-                        </li>
-                        <!-- Single Comment Area-->
-                        <li class="single_comment_area">
-                            <div class="comment-content d-flex">
-                                <div class="comment-author"><img src="img/bg-img/t3.png" alt="author"></div>
-                                <div class="comment-meta py-2">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <h6>Юрий Жернов</h6><a class="post-date" href="#">41 минута назад</a>
+                                <li class="single-user-review d-flex">
+                                    <div class="user-thumbnail"><img src="/img/custom-img/Hanna.jpg" alt=""></div>
+                                    <div class="rating-comment">
+                                        <div class="rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div>
+                                        <p class="comment mb-0"> Непосредственно про компанию Большая кормушка я сказать ничего не могу, потому что лично с ними не контактировала, а вот про качество их продукции кое-что знаю. Нам с мужем на свадьбу подарили десяток курочек. Отлично!</p><span class="name-date">14.06.2021</span>
                                     </div>
-                                    <p>Абсолютно замечательные!</p><a class="like" href="#">👍</a><a class="reply" href="#">Reply</a>
-                                </div>
+                                </li>
+                                <li class="single-user-review d-flex">
+                                    <div class="user-thumbnail"><img src="/img/custom-img/Katie.jpg" alt=""></div>
+                                    <div class="rating-comment">
+                                        <div class="rating"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></div>
+                                        <p class="comment mb-0">Хорошая компания, мне нравится. Часто туда хожу. И не понимаю эти отрицательные отзывы. Работаю в похожей сфере.</p><span class="name-date">28.06.2021</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ratings Submit Form-->
+                <div class="ratings-submit-form bg-white py-3">
+                    <div class="container">
+                        <h6>Оставить отзыв</h6>
+                        <form action="#" method="">
+                            <div class="stars mb-3">
+                                <input class="star-1" type="radio" name="star" id="star1">
+                                <label class="star-1" for="star1"></label>
+                                <input class="star-2" type="radio" name="star" id="star2">
+                                <label class="star-2" for="star2"></label>
+                                <input class="star-3" type="radio" name="star" id="star3">
+                                <label class="star-3" for="star3"></label>
+                                <input class="star-4" type="radio" name="star" id="star4">
+                                <label class="star-4" for="star4"></label>
+                                <input class="star-5" type="radio" name="star" id="star5">
+                                <label class="star-5" for="star5"></label><span></span>
                             </div>
-                        </li>
-                    </ol>
+                            <textarea class="form-control mb-3" id="comments" name="comment" cols="30" rows="10" data-max-length="200" placeholder="Ваше сообщение..."></textarea>
+                            <button class="btn btn-sm btn-primary" type="submit">Отправить</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
