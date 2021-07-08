@@ -24,14 +24,6 @@ Route::get('/single', function () {
 });
 
 
-Route::get('/blog-details', function () {
-    return view('blog-details');
-});
-
-Route::get('/blog-category', function () {
-    return view('blog-category');
-});
-
 Route::get('/profile', function () {
     return view('profile');
 });
