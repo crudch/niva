@@ -1,6 +1,7 @@
 <?php
 /**
  * @var \App\Models\Category[] $categories
+ * @var \App\Models\Article[]  $articles
  */
 ?>
 @extends('layouts.app', ['h' => 'header2', 'search' => true])
@@ -169,33 +170,23 @@
         </div>
         <div class="container">
             <div class="row justify-content-center g-5">
-                <!-- Blog Card-->
-                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                    <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/berries.jpg" alt=""></a>
-                        <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                <h4>Десять рецептов варенья из ягод.</h4></a>
-                            <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 2 мин.</span></div>
+                @foreach($articles as $article)
+                    <!-- Blog Card-->
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                            <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                <a class="d-block mb-4" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                    <img src="{{ $article->img }}" alt="{{ $article->title }}">
+                                </a>
+                                <div class="post-content">
+                                    <a class="d-block mb-1" href="{{ route('blog.rubric', $article->rubric) }}">{{ $article->rubric->title }}</a>
+                                    <a class="post-title d-block mb-3" href="{{ route('blog.show', ['rubric_slug' => $article->rubric->slug, 'article' => $article->slug]) }}">
+                                        <h4>{{ $article->title }}</h4>
+                                    </a>
+                                    <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>{{ $article->created_at->format('d.m.Y') }}</span></div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Blog Card-->
-                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                    <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/park.jpg" alt=""></a>
-                        <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                <h4>Куда пойти в выходные.</h4></a>
-                            <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 4 мин.</span></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Card-->
-                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                    <div class="card blog-card border-0 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms"><a class="d-block mb-4" href="#"><img src="/img/custom-img/accessories.jpg" alt=""></a>
-                        <div class="post-content"><a class="d-block mb-1" href="#">Новости</a><a class="post-title d-block mb-3" href="#">
-                                <h4>Обзор полезных аксессуаров.</h4></a>
-                            <div class="post-meta"><span class="text-muted"><i class="lni-timer mr-2"></i>Время чтения 3 мин.</span></div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
