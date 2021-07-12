@@ -9,8 +9,8 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $categories = Category::sorted()
-            ->where('parent_id', 0)
+        $categories = Category::where('parent_id', 0)
+            ->take(8)
             ->get();
 
         $articles = Article::latest('id')
