@@ -9,25 +9,22 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * App\Models\Article
  *
- * @property int                             $id
- * @property int                             $rubric_id
- * @property string                          $title
- * @property string                          $slug
- * @property string|null                     $img
- * @property string                          $description
- * @property string                          $body
- * @property string|null                     $deleted_at
+ * @property int $id
+ * @property int $rubric_id
+ * @property string $title
+ * @property string $slug
+ * @property string|null $img
+ * @property string $description
+ * @property string $body
+ * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Models\Rubric $rubric
  * @method static \Database\Factories\ArticleFactory factory(...$parameters)
  * @method static \Illuminate\Database\Eloquent\Builder|Article newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Article newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Article query()
- * @mixin \Eloquent
- * @property-read \App\Models\Rubric $rubric
  * @method static \Illuminate\Database\Query\Builder|Article onlyTrashed()
- * @method static \Illuminate\Database\Query\Builder|Article withTrashed()
- * @method static \Illuminate\Database\Query\Builder|Article withoutTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|Article query()
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereBody($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereDeletedAt($value)
@@ -38,6 +35,9 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereTitle($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Article whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Query\Builder|Article withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Article withoutTrashed()
+ * @mixin \Eloquent
  */
 class Article extends Model
 {

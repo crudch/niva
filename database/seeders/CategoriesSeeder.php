@@ -20,7 +20,9 @@ class CategoriesSeeder extends Seeder
         Category::flushEventListeners();
 
         $categories = json_decode(
-            file_get_contents(dirname(__DIR__) . '/data/categories.json'), true, 512,
+            file_get_contents(dirname(__DIR__) . '/data/categories.json'),
+            true,
+            512,
             JSON_THROW_ON_ERROR
         );
 
