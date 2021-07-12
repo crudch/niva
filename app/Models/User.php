@@ -17,7 +17,9 @@ use Orchid\Platform\Models\User as Authenticatable;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property array|null $permissions
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
+ * @property-read int|null $notifications_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Orchid\Platform\Models\Role[] $roles
+ * @property-read int|null $roles_count
  * @method static \Illuminate\Database\Eloquent\Builder|User countByDays($startDate = null, $stopDate = null, string $dateColumn = 'created_at')
  * @method static \Illuminate\Database\Eloquent\Builder|User countForGroup(string $groupColumn)
  * @method static \Illuminate\Database\Eloquent\Builder|User defaultSort(string $column, string $direction = 'asc')
@@ -29,9 +31,6 @@ use Orchid\Platform\Models\User as Authenticatable;
  * @method static \Illuminate\Database\Eloquent\Builder|User query()
  * @method static \Illuminate\Database\Eloquent\Builder|User sumByDays(string $value, $startDate = null, $stopDate = null, string $dateColumn = 'created_at')
  * @method static \Illuminate\Database\Eloquent\Builder|User valuesByDays(string $value, $startDate = null, $stopDate = null, string $dateColumn = 'created_at')
- * @mixin \Eloquent
- * @property-read int|null $notifications_count
- * @property-read int|null $roles_count
  * @method static \Illuminate\Database\Eloquent\Builder|User whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereEmail($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereEmailVerifiedAt($value)
@@ -41,6 +40,7 @@ use Orchid\Platform\Models\User as Authenticatable;
  * @method static \Illuminate\Database\Eloquent\Builder|User wherePermissions($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
+ * @mixin \Eloquent
  */
 class User extends Authenticatable
 {

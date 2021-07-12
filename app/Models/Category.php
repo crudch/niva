@@ -2,8 +2,43 @@
 
 namespace App\Models;
 
+use Eloquent;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+/**
+ * App\Models\Category
+ *
+ * @property int $id
+ * @property int $parent_id
+ * @property string|null $icon
+ * @property string $title
+ * @property string $description
+ * @property string $slug
+ * @property string $full_url
+ * @property array $breadcrumbs
+ * @property int $sort
+ * @property-read Collection|Category[] $children
+ * @property-read int|null $children_count
+ * @property-read Category $parent
+ * @method static Builder|Category newModelQuery()
+ * @method static Builder|Category newQuery()
+ * @method static Builder|Category query()
+ * @method static Builder|Category whereBreadcrumbs($value)
+ * @method static Builder|Category whereDescription($value)
+ * @method static Builder|Category whereFullUrl($value)
+ * @method static Builder|Category whereIcon($value)
+ * @method static Builder|Category whereId($value)
+ * @method static Builder|Category whereParentId($value)
+ * @method static Builder|Category whereSlug($value)
+ * @method static Builder|Category whereSort($value)
+ * @method static Builder|Category whereTitle($value)
+ * @mixin Eloquent
+ * @method static Builder|Category sorted()
+ */
 class Category extends Model
 {
     /**
@@ -16,11 +51,12 @@ class Category extends Model
      */
     protected $fillable = [
         'parent_id',
+        'icon',
         'title',
+        'description',
         'slug',
         'full_url',
         'breadcrumbs',
-        'icon',
         'sort'
     ];
 
@@ -63,7 +99,7 @@ class Category extends Model
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @return BelongsTo
      */
     public function parent()
     {
@@ -71,10 +107,20 @@ class Category extends Model
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * @return HasMany
      */
     public function children()
     {
         return $this->hasMany(static::class, 'parent_id', 'id');
+    }
+
+    /**
+     * @param Builder $query
+     *
+     * @return Builder
+     */
+    public function scopeSorted(Builder $query)
+    {
+        return $query->orderBy('sort');
     }
 }

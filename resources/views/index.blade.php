@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\Models\Category[] $categories
+ */
+?>
 @extends('layouts.app', ['h' => 'header2', 'search' => true])
 
 @section('title', 'Отзовик')
@@ -134,78 +139,17 @@
         <div class="container">
             <div class="hero--content--area">
                 <div class="row justify-content-center g-4">
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-dinner"></i>
-                                <h5>Рестораны</h5>
-                                <p class="mb-0">Блюда со всего света</p>
+                    @foreach($categories as $category)
+                        <!-- Single Hero Card-->
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                                <a href="#" class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
+                                    <div class="card-body"><i class="{{ $category->icon }}"></i>
+                                        <h5>{{ $category->title }}</h5>
+                                        <p class="mb-0">{{ $category->description }}</p>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-juice"></i>
-                                <h5>Бары</h5>
-                                <p class="mb-0">Напитки и ночная жизнь</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-coffee-cup"></i>
-                                <h5>Кофейни</h5>
-                                <p class="mb-0">Бодрость начинается отсюда</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="700ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-delivery"></i>
-                                <h5>Доставка еды</h5>
-                                <p class="mb-0">Круглосуточно и быстро</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-shopify"></i>
-                                <h5>Магазины</h5>
-                                <p class="mb-0">Более 50000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="300ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-taxi"></i>
-                                <h5>Такси</h5>
-                                <p class="mb-0">Парки и частные водители</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="500ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-spray"></i>
-                                <h5>Салоны красоты</h5>
-                                <p class="mb-0">Стрижка, маникюр, макияж</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Hero Card-->
-                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                        <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="700ms" data-wow-duration="1000ms">
-                            <div class="card-body"><i class="lni-baloon"></i>
-                                <h5>Развлечения</h5>
-                                <p class="mb-0">Для всех и каждого</p>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

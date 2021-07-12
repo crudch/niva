@@ -18,7 +18,13 @@ class CreateCategoriesTable extends Migration
             $table->smallInteger('parent_id', unsigned: true)
                 ->index();
 
+            $table->string('icon')
+                ->nullable();
+
             $table->string('title');
+            $table->string('description')
+                ->default('');
+
             $table->string('slug')
                 ->unique();
 
@@ -26,8 +32,7 @@ class CreateCategoriesTable extends Migration
                 ->unique();
 
             $table->json('breadcrumbs');
-            $table->string('icon')
-                ->nullable();
+
 
             $table->tinyInteger('sort', unsigned: true)
                 ->default(30)
