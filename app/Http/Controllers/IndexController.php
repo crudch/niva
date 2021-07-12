@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use App\Models\Category;
 
 class IndexController extends Controller
@@ -11,7 +12,11 @@ class IndexController extends Controller
         $categories = Category::sorted()
             ->where('parent_id', 0)
             ->get();
-        
-        return view('index', compact('categories'));
+
+        $articles = Article::latest('id')
+            ->take(3)
+            ->get();
+
+        return view('index', compact('categories', 'articles'));
     }
 }
