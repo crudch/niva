@@ -1,0 +1,2572 @@
+[
+    {
+        "id": 1,
+        "parent_id": 0,
+        "title": "Авто и мото",
+        "slug": "avto-i-moto",
+        "full_url": "avto-i-moto",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 2,
+        "parent_id": 0,
+        "title": "В городе",
+        "slug": "v-gorode",
+        "full_url": "v-gorode",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 3,
+        "parent_id": 0,
+        "title": "Все для дома и сада",
+        "slug": "vse-dlya-doma-i-sada",
+        "full_url": "vse-dlya-doma-i-sada",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 4,
+        "parent_id": 0,
+        "title": "Дети и родители",
+        "slug": "deti-i-roditeli",
+        "full_url": "deti-i-roditeli",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 5,
+        "parent_id": 0,
+        "title": "Животные и комнатные растения",
+        "slug": "zhivotnye-i-komnatnye-rasteniya",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 6,
+        "parent_id": 0,
+        "title": "Игры",
+        "slug": "igry",
+        "full_url": "igry",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 7,
+        "parent_id": 0,
+        "title": "Интернет и сайты",
+        "slug": "internet-i-sayty",
+        "full_url": "internet-i-sayty",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 8,
+        "parent_id": 0,
+        "title": "Книги, журналы",
+        "slug": "knigi-zhurnaly",
+        "full_url": "knigi-zhurnaly",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 9,
+        "parent_id": 0,
+        "title": "Компьютеры и программы",
+        "slug": "kompyutery-i-programmy",
+        "full_url": "kompyutery-i-programmy",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 10,
+        "parent_id": 0,
+        "title": "Красота и здоровье",
+        "slug": "krasota-i-zdorove",
+        "full_url": "krasota-i-zdorove",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 11,
+        "parent_id": 0,
+        "title": "Одежда и обувь",
+        "slug": "odezhda-i-obuv",
+        "full_url": "odezhda-i-obuv",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 12,
+        "parent_id": 0,
+        "title": "Подарки и сувениры",
+        "slug": "podarki-i-suveniry",
+        "full_url": "podarki-i-suveniry",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 13,
+        "parent_id": 0,
+        "title": "Продукты питания",
+        "slug": "produkty-pitaniya",
+        "full_url": "produkty-pitaniya",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 14,
+        "parent_id": 0,
+        "title": "Путешествия и туризм",
+        "slug": "puteshestviya-i-turizm",
+        "full_url": "puteshestviya-i-turizm",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 15,
+        "parent_id": 0,
+        "title": "Работа и заработок",
+        "slug": "rabota-i-zarabotok",
+        "full_url": "rabota-i-zarabotok",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 16,
+        "parent_id": 0,
+        "title": "Спорт и активный отдых",
+        "slug": "sport-i-aktivnyy-otdyh",
+        "full_url": "sport-i-aktivnyy-otdyh",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 17,
+        "parent_id": 0,
+        "title": "Техника и оборудование",
+        "slug": "tehnika-i-oborudovanie",
+        "full_url": "tehnika-i-oborudovanie",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 18,
+        "parent_id": 0,
+        "title": "Фильмы, видео и ТВ",
+        "slug": "filmy-video-i-tv",
+        "full_url": "filmy-video-i-tv",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 19,
+        "parent_id": 0,
+        "title": "Финансовые услуги",
+        "slug": "finansovye-uslugi",
+        "full_url": "finansovye-uslugi",
+        "breadcrumbs": "[]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 20,
+        "parent_id": 1,
+        "title": "Автозапчасти",
+        "slug": "avtozapchasti",
+        "full_url": "avto-i-moto\/avtozapchasti",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 21,
+        "parent_id": 1,
+        "title": "Автохимия и масла",
+        "slug": "avtohimiya-i-masla",
+        "full_url": "avto-i-moto\/avtohimiya-i-masla",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 22,
+        "parent_id": 1,
+        "title": "Аксессуары для авто",
+        "slug": "aksessuary-dlya-avto",
+        "full_url": "avto-i-moto\/aksessuary-dlya-avto",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 23,
+        "parent_id": 1,
+        "title": "Водный транспорт",
+        "slug": "vodnyy-transport",
+        "full_url": "avto-i-moto\/vodnyy-transport",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 24,
+        "parent_id": 1,
+        "title": "Грузовые автомобили",
+        "slug": "gruzovye-avtomobili",
+        "full_url": "avto-i-moto\/gruzovye-avtomobili",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 25,
+        "parent_id": 1,
+        "title": "Дома на колесах",
+        "slug": "doma-na-kolesah",
+        "full_url": "avto-i-moto\/doma-na-kolesah",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 26,
+        "parent_id": 1,
+        "title": "Легковые авто",
+        "slug": "legkovye-avto",
+        "full_url": "avto-i-moto\/legkovye-avto",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 27,
+        "parent_id": 1,
+        "title": "Мото",
+        "slug": "moto",
+        "full_url": "avto-i-moto\/moto",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 28,
+        "parent_id": 1,
+        "title": "Разное",
+        "slug": "auto-raznoe",
+        "full_url": "avto-i-moto\/auto-raznoe",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 29,
+        "parent_id": 1,
+        "title": "Спецтехника",
+        "slug": "spectehnika",
+        "full_url": "avto-i-moto\/spectehnika",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 30,
+        "parent_id": 1,
+        "title": "Шины и диски",
+        "slug": "shiny-i-diski",
+        "full_url": "avto-i-moto\/shiny-i-diski",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 31,
+        "parent_id": 1,
+        "title": "Электроника для авто",
+        "slug": "elektronika-dlya-avto",
+        "full_url": "avto-i-moto\/elektronika-dlya-avto",
+        "breadcrumbs": "[{\"title\":\"Авто и мото\",\"url\":\"avto-i-moto\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 32,
+        "parent_id": 2,
+        "title": "Автосалоны и авторынки",
+        "slug": "avtosalony-i-avtorynki",
+        "full_url": "v-gorode\/avtosalony-i-avtorynki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 33,
+        "parent_id": 2,
+        "title": "Автосервисы",
+        "slug": "avtoservisy",
+        "full_url": "v-gorode\/avtoservisy",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 34,
+        "parent_id": 2,
+        "title": "Автостоянки и паркинги",
+        "slug": "avtostoyanki-i-parkingi",
+        "full_url": "v-gorode\/avtostoyanki-i-parkingi",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 35,
+        "parent_id": 2,
+        "title": "Автошколы",
+        "slug": "avtoshkoly",
+        "full_url": "v-gorode\/avtoshkoly",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 36,
+        "parent_id": 2,
+        "title": "Аптеки",
+        "slug": "apteki",
+        "full_url": "v-gorode\/apteki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 37,
+        "parent_id": 2,
+        "title": "Базары, рынки, ярмарки",
+        "slug": "bazary-rynki-yarmarki",
+        "full_url": "v-gorode\/bazary-rynki-yarmarki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 38,
+        "parent_id": 2,
+        "title": "Бани и сауны",
+        "slug": "bani-i-sauny",
+        "full_url": "v-gorode\/bani-i-sauny",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 39,
+        "parent_id": 2,
+        "title": "Больницы и клиники",
+        "slug": "bolnicy-i-kliniki",
+        "full_url": "v-gorode\/bolnicy-i-kliniki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 40,
+        "parent_id": 2,
+        "title": "Ветеринарные клиники и аптеки",
+        "slug": "veterinarnye-kliniki-i-apteki",
+        "full_url": "v-gorode\/veterinarnye-kliniki-i-apteki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 41,
+        "parent_id": 2,
+        "title": "Гостиницы и приюты домашних животных",
+        "slug": "gostinicy-i-priyuty-domashnih-zhivotnyh",
+        "full_url": "v-gorode\/gostinicy-i-priyuty-domashnih-zhivotnyh",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 42,
+        "parent_id": 2,
+        "title": "Зоопарки, дельфинарии, океанариумы",
+        "slug": "zooparki-delfinarii-okeanariumy",
+        "full_url": "v-gorode\/zooparki-delfinarii-okeanariumy",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 43,
+        "parent_id": 2,
+        "title": "Кальянные",
+        "slug": "kalyannye",
+        "full_url": "v-gorode\/kalyannye",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 44,
+        "parent_id": 2,
+        "title": "Кинотеатры",
+        "slug": "kinoteatry",
+        "full_url": "v-gorode\/kinoteatry",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 45,
+        "parent_id": 2,
+        "title": "Клубы по интересам",
+        "slug": "kluby-po-interesam",
+        "full_url": "v-gorode\/kluby-po-interesam",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 46,
+        "parent_id": 2,
+        "title": "Компании и предприятия",
+        "slug": "kompanii-i-predpriyatiya",
+        "full_url": "v-gorode\/kompanii-i-predpriyatiya",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 47,
+        "parent_id": 2,
+        "title": "Магазины и торговые центры",
+        "slug": "magaziny-i-torgovye-centry",
+        "full_url": "v-gorode\/magaziny-i-torgovye-centry",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 48,
+        "parent_id": 2,
+        "title": "Музеи и выставки",
+        "slug": "muzei-i-vystavki",
+        "full_url": "v-gorode\/muzei-i-vystavki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 49,
+        "parent_id": 2,
+        "title": "Музыкальные школы",
+        "slug": "muzykalnye-shkoly",
+        "full_url": "v-gorode\/muzykalnye-shkoly",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 50,
+        "parent_id": 2,
+        "title": "Недвижимость",
+        "slug": "nedvizhimost",
+        "full_url": "v-gorode\/nedvizhimost",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 51,
+        "parent_id": 2,
+        "title": "Образование",
+        "slug": "obrazovanie",
+        "full_url": "v-gorode\/obrazovanie",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 52,
+        "parent_id": 2,
+        "title": "Общественный транспорт и грузоперевозки",
+        "slug": "obshchestvennyy-transport-i-gruzoperevozki",
+        "full_url": "v-gorode\/obshchestvennyy-transport-i-gruzoperevozki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 53,
+        "parent_id": 2,
+        "title": "Парки аттракционов",
+        "slug": "parki-attrakcionov",
+        "full_url": "v-gorode\/parki-attrakcionov",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 54,
+        "parent_id": 2,
+        "title": "Парки культуры и отдыха",
+        "slug": "parki-kultury-i-otdyha",
+        "full_url": "v-gorode\/parki-kultury-i-otdyha",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 55,
+        "parent_id": 2,
+        "title": "Разное",
+        "slug": "v-gorode-raznoe",
+        "full_url": "v-gorode\/v-gorode-raznoe",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 56,
+        "parent_id": 2,
+        "title": "Рестораны, бары, кафе",
+        "slug": "restorany-bary-kafe",
+        "full_url": "v-gorode\/restorany-bary-kafe",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 57,
+        "parent_id": 2,
+        "title": "Салоны красоты",
+        "slug": "salony-krasoty",
+        "full_url": "v-gorode\/salony-krasoty",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 58,
+        "parent_id": 2,
+        "title": "Стадионы и спортивные клубы",
+        "slug": "stadiony-i-sportivnye-kluby",
+        "full_url": "v-gorode\/stadiony-i-sportivnye-kluby",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 59,
+        "parent_id": 2,
+        "title": "Театр",
+        "slug": "teatr",
+        "full_url": "v-gorode\/teatr",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 60,
+        "parent_id": 2,
+        "title": "Торгово-развлекательные центры",
+        "slug": "torgovo-razvlekatelnye-centry",
+        "full_url": "v-gorode\/torgovo-razvlekatelnye-centry",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 61,
+        "parent_id": 2,
+        "title": "Цирки",
+        "slug": "cirki",
+        "full_url": "v-gorode\/cirki",
+        "breadcrumbs": "[{\"title\":\"В городе\",\"url\":\"v-gorode\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 62,
+        "parent_id": 3,
+        "title": "Бассейны для дачи",
+        "slug": "basseyny-dlya-dachi",
+        "full_url": "vse-dlya-doma-i-sada\/basseyny-dlya-dachi",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 63,
+        "parent_id": 3,
+        "title": "Борьба с насекомыми и грызунами",
+        "slug": "borba-s-nasekomymi-i-gryzunami",
+        "full_url": "vse-dlya-doma-i-sada\/borba-s-nasekomymi-i-gryzunami",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 64,
+        "parent_id": 3,
+        "title": "Бытовая химия",
+        "slug": "bytovaya-himiya",
+        "full_url": "vse-dlya-doma-i-sada\/bytovaya-himiya",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 65,
+        "parent_id": 3,
+        "title": "Гладильные доски",
+        "slug": "gladilnye-doski",
+        "full_url": "vse-dlya-doma-i-sada\/gladilnye-doski",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 66,
+        "parent_id": 3,
+        "title": "Гриль и коптильни",
+        "slug": "gril-i-koptilni",
+        "full_url": "vse-dlya-doma-i-sada\/gril-i-koptilni",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 67,
+        "parent_id": 3,
+        "title": "Декор для дома и сада",
+        "slug": "dekor-dlya-doma-i-sada",
+        "full_url": "vse-dlya-doma-i-sada\/dekor-dlya-doma-i-sada",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 68,
+        "parent_id": 3,
+        "title": "Домашний текстиль",
+        "slug": "domashniy-tekstil",
+        "full_url": "vse-dlya-doma-i-sada\/domashniy-tekstil",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 69,
+        "parent_id": 3,
+        "title": "Мебель",
+        "slug": "mebel",
+        "full_url": "vse-dlya-doma-i-sada\/mebel",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 70,
+        "parent_id": 3,
+        "title": "Окна и двери",
+        "slug": "okna-i-dveri",
+        "full_url": "vse-dlya-doma-i-sada\/okna-i-dveri",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 71,
+        "parent_id": 3,
+        "title": "Посуда и столовые приборы",
+        "slug": "posuda-i-stolovye-pribory",
+        "full_url": "vse-dlya-doma-i-sada\/posuda-i-stolovye-pribory",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 72,
+        "parent_id": 3,
+        "title": "Принадлежности для уборки",
+        "slug": "prinadlezhnosti-dlya-uborki",
+        "full_url": "vse-dlya-doma-i-sada\/prinadlezhnosti-dlya-uborki",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 73,
+        "parent_id": 3,
+        "title": "Разное",
+        "slug": "vse-dlya-doma-i-sada-raznoe",
+        "full_url": "vse-dlya-doma-i-sada\/vse-dlya-doma-i-sada-raznoe",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 74,
+        "parent_id": 3,
+        "title": "Сад и огород",
+        "slug": "sad-i-ogorod",
+        "full_url": "vse-dlya-doma-i-sada\/sad-i-ogorod",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 75,
+        "parent_id": 3,
+        "title": "Сантехника",
+        "slug": "santehnika",
+        "full_url": "vse-dlya-doma-i-sada\/santehnika",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 76,
+        "parent_id": 3,
+        "title": "Светотехника и освещение",
+        "slug": "svetotehnika-i-osveshchenie",
+        "full_url": "vse-dlya-doma-i-sada\/svetotehnika-i-osveshchenie",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 77,
+        "parent_id": 3,
+        "title": "Сигнализации и охрана территории",
+        "slug": "signalizacii-i-ohrana-territorii",
+        "full_url": "vse-dlya-doma-i-sada\/signalizacii-i-ohrana-territorii",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 78,
+        "parent_id": 3,
+        "title": "Строительные материалы",
+        "slug": "stroitelnye-materialy",
+        "full_url": "vse-dlya-doma-i-sada\/stroitelnye-materialy",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 79,
+        "parent_id": 3,
+        "title": "Сушилки для белья",
+        "slug": "sushilki-dlya-belya",
+        "full_url": "vse-dlya-doma-i-sada\/sushilki-dlya-belya",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 80,
+        "parent_id": 3,
+        "title": "Фильтры воды",
+        "slug": "filtry-vody",
+        "full_url": "vse-dlya-doma-i-sada\/filtry-vody",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 81,
+        "parent_id": 3,
+        "title": "Чистка и хранение одежды",
+        "slug": "chistka-i-hranenie-odezhdy",
+        "full_url": "vse-dlya-doma-i-sada\/chistka-i-hranenie-odezhdy",
+        "breadcrumbs": "[{\"title\":\"Все для дома и сада\",\"url\":\"vse-dlya-doma-i-sada\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 82,
+        "parent_id": 4,
+        "title": "Все для школы",
+        "slug": "vse-dlya-shkoly",
+        "full_url": "deti-i-roditeli\/vse-dlya-shkoly",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 83,
+        "parent_id": 4,
+        "title": "Детская мебель",
+        "slug": "detskaya-mebel",
+        "full_url": "deti-i-roditeli\/detskaya-mebel",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 84,
+        "parent_id": 4,
+        "title": "Детская сантехника",
+        "slug": "detskaya-santehnika",
+        "full_url": "deti-i-roditeli\/detskaya-santehnika",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 85,
+        "parent_id": 4,
+        "title": "Детские подгузники",
+        "slug": "detskie-podguzniki",
+        "full_url": "deti-i-roditeli\/detskie-podguzniki",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 86,
+        "parent_id": 4,
+        "title": "Детские тренажеры",
+        "slug": "detskie-trenazhery",
+        "full_url": "deti-i-roditeli\/detskie-trenazhery",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 87,
+        "parent_id": 4,
+        "title": "Игровые площадки и развлечения",
+        "slug": "igrovye-ploshchadki-i-razvlecheniya",
+        "full_url": "deti-i-roditeli\/igrovye-ploshchadki-i-razvlecheniya",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 88,
+        "parent_id": 4,
+        "title": "Игрушки",
+        "slug": "igrushki",
+        "full_url": "deti-i-roditeli\/igrushki",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 89,
+        "parent_id": 4,
+        "title": "Питание для мам",
+        "slug": "pitanie-dlya-mam",
+        "full_url": "deti-i-roditeli\/pitanie-dlya-mam",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 90,
+        "parent_id": 4,
+        "title": "Посуда и кормление детей",
+        "slug": "posuda-i-kormlenie-detey",
+        "full_url": "deti-i-roditeli\/posuda-i-kormlenie-detey",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 91,
+        "parent_id": 4,
+        "title": "Разное",
+        "slug": "deti-i-roditeli-raznoe",
+        "full_url": "deti-i-roditeli\/deti-i-roditeli-raznoe",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 92,
+        "parent_id": 4,
+        "title": "Средства гигиены",
+        "slug": "sredstva-gigieny",
+        "full_url": "deti-i-roditeli\/sredstva-gigieny",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 93,
+        "parent_id": 4,
+        "title": "Средства наблюдения и контроля",
+        "slug": "sredstva-nablyudeniya-i-kontrolya",
+        "full_url": "deti-i-roditeli\/sredstva-nablyudeniya-i-kontrolya",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 94,
+        "parent_id": 4,
+        "title": "Транспортировка детей",
+        "slug": "transportirovka-detey",
+        "full_url": "deti-i-roditeli\/transportirovka-detey",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 95,
+        "parent_id": 4,
+        "title": "Электромобили и мотоциклы",
+        "slug": "elektromobili-i-motocikly",
+        "full_url": "deti-i-roditeli\/elektromobili-i-motocikly",
+        "breadcrumbs": "[{\"title\":\"Дети и родители\",\"url\":\"deti-i-roditeli\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 96,
+        "parent_id": 5,
+        "title": "Ветеринарные средства",
+        "slug": "veterinarnye-sredstva",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/veterinarnye-sredstva",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 97,
+        "parent_id": 5,
+        "title": "Домашние животные",
+        "slug": "domashnie-zhivotnye",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/domashnie-zhivotnye",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 98,
+        "parent_id": 5,
+        "title": "Корм для животных",
+        "slug": "korm-dlya-zhivotnyh",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/korm-dlya-zhivotnyh",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 99,
+        "parent_id": 5,
+        "title": "Разное",
+        "slug": "zhivotnye-i-komnatnye-rasteniya-raznoe",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/zhivotnye-i-komnatnye-rasteniya-raznoe",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 100,
+        "parent_id": 5,
+        "title": "Растения комнатные",
+        "slug": "rasteniya-komnatnye",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/rasteniya-komnatnye",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 101,
+        "parent_id": 5,
+        "title": "Растения садовые",
+        "slug": "rasteniya-sadovye",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/rasteniya-sadovye",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 102,
+        "parent_id": 5,
+        "title": "Товары для животных",
+        "slug": "tovary-dlya-zhivotnyh",
+        "full_url": "zhivotnye-i-komnatnye-rasteniya\/tovary-dlya-zhivotnyh",
+        "breadcrumbs": "[{\"title\":\"Животные и комнатные растения\",\"url\":\"zhivotnye-i-komnatnye-rasteniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 103,
+        "parent_id": 6,
+        "title": "Игровые приставки",
+        "slug": "igrovye-pristavki",
+        "full_url": "igry\/igrovye-pristavki",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 104,
+        "parent_id": 6,
+        "title": "Игры для Nintendo Wii",
+        "slug": "igry-dlya-nintendo-wii",
+        "full_url": "igry\/igry-dlya-nintendo-wii",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 105,
+        "parent_id": 6,
+        "title": "Игры для PS Vita",
+        "slug": "igry-dlya-ps-vita",
+        "full_url": "igry\/igry-dlya-ps-vita",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 106,
+        "parent_id": 6,
+        "title": "Игры для PSP",
+        "slug": "igry-dlya-psp",
+        "full_url": "igry\/igry-dlya-psp",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 107,
+        "parent_id": 6,
+        "title": "Игры для Sony PlayStation 2",
+        "slug": "igry-dlya-sony-playstation-2",
+        "full_url": "igry\/igry-dlya-sony-playstation-2",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 108,
+        "parent_id": 6,
+        "title": "Игры для Sony PlayStation 3",
+        "slug": "igry-dlya-sony-playstation-3",
+        "full_url": "igry\/igry-dlya-sony-playstation-3",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 109,
+        "parent_id": 6,
+        "title": "Игры для Sony PlayStation 4",
+        "slug": "igry-dlya-sony-playstation-4",
+        "full_url": "igry\/igry-dlya-sony-playstation-4",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 110,
+        "parent_id": 6,
+        "title": "Игры для Sony PlayStation 5",
+        "slug": "igry-dlya-sony-playstation-5",
+        "full_url": "igry\/igry-dlya-sony-playstation-5",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 111,
+        "parent_id": 6,
+        "title": "Игры для Xbox",
+        "slug": "igry-dlya-xbox",
+        "full_url": "igry\/igry-dlya-xbox",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 112,
+        "parent_id": 6,
+        "title": "Игры для телефонов",
+        "slug": "igry-dlya-telefonov",
+        "full_url": "igry\/igry-dlya-telefonov",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 113,
+        "parent_id": 6,
+        "title": "Компьютерные игры",
+        "slug": "kompyuternye-igry",
+        "full_url": "igry\/kompyuternye-igry",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 114,
+        "parent_id": 6,
+        "title": "Лотереи и розыгрыши",
+        "slug": "loterei-i-rozygryshi",
+        "full_url": "igry\/loterei-i-rozygryshi",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 115,
+        "parent_id": 6,
+        "title": "На природе",
+        "slug": "na-prirode",
+        "full_url": "igry\/na-prirode",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 116,
+        "parent_id": 6,
+        "title": "Настольные игры",
+        "slug": "nastolnye-igry",
+        "full_url": "igry\/nastolnye-igry",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 117,
+        "parent_id": 6,
+        "title": "Разное",
+        "slug": "igry-raznoe",
+        "full_url": "igry\/igry-raznoe",
+        "breadcrumbs": "[{\"title\":\"Игры\",\"url\":\"igry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 118,
+        "parent_id": 7,
+        "title": "Веб-мастеру",
+        "slug": "veb-masteru",
+        "full_url": "internet-i-sayty\/veb-masteru",
+        "breadcrumbs": "[{\"title\":\"Интернет и сайты\",\"url\":\"internet-i-sayty\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 119,
+        "parent_id": 7,
+        "title": "Интернет-магазины",
+        "slug": "internet-magaziny",
+        "full_url": "internet-i-sayty\/internet-magaziny",
+        "breadcrumbs": "[{\"title\":\"Интернет и сайты\",\"url\":\"internet-i-sayty\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 120,
+        "parent_id": 7,
+        "title": "Онлайн-сервисы",
+        "slug": "onlayn-servisy",
+        "full_url": "internet-i-sayty\/onlayn-servisy",
+        "breadcrumbs": "[{\"title\":\"Интернет и сайты\",\"url\":\"internet-i-sayty\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 121,
+        "parent_id": 7,
+        "title": "Разное",
+        "slug": "internet-i-sayty-raznoe",
+        "full_url": "internet-i-sayty\/internet-i-sayty-raznoe",
+        "breadcrumbs": "[{\"title\":\"Интернет и сайты\",\"url\":\"internet-i-sayty\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 122,
+        "parent_id": 8,
+        "title": "Аудиокниги",
+        "slug": "audioknigi",
+        "full_url": "knigi-zhurnaly\/audioknigi",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 123,
+        "parent_id": 8,
+        "title": "Газеты",
+        "slug": "gazety",
+        "full_url": "knigi-zhurnaly\/gazety",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 124,
+        "parent_id": 8,
+        "title": "Журналы",
+        "slug": "zhurnaly",
+        "full_url": "knigi-zhurnaly\/zhurnaly",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 125,
+        "parent_id": 8,
+        "title": "Каталоги продукции",
+        "slug": "katalogi-produkcii",
+        "full_url": "knigi-zhurnaly\/katalogi-produkcii",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 126,
+        "parent_id": 8,
+        "title": "Книги",
+        "slug": "knigi",
+        "full_url": "knigi-zhurnaly\/knigi",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 127,
+        "parent_id": 8,
+        "title": "Писатели",
+        "slug": "pisateli",
+        "full_url": "knigi-zhurnaly\/pisateli",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 128,
+        "parent_id": 8,
+        "title": "Разное",
+        "slug": "knigi-zhurnaly-raznoe",
+        "full_url": "knigi-zhurnaly\/knigi-zhurnaly-raznoe",
+        "breadcrumbs": "[{\"title\":\"Книги, журналы\",\"url\":\"knigi-zhurnaly\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 129,
+        "parent_id": 9,
+        "title": "Аксессуары",
+        "slug": "kompyutery-i-programmy-aksessuary",
+        "full_url": "kompyutery-i-programmy\/kompyutery-i-programmy-aksessuary",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 130,
+        "parent_id": 9,
+        "title": "Акустика для компьютеров",
+        "slug": "akustika-dlya-kompyuterov",
+        "full_url": "kompyutery-i-programmy\/akustika-dlya-kompyuterov",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 131,
+        "parent_id": 9,
+        "title": "Веб-камеры",
+        "slug": "veb-kamery",
+        "full_url": "kompyutery-i-programmy\/veb-kamery",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 132,
+        "parent_id": 9,
+        "title": "Внешние USB-накопители",
+        "slug": "vneshnie-usb-nakopiteli",
+        "full_url": "kompyutery-i-programmy\/vneshnie-usb-nakopiteli",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 133,
+        "parent_id": 9,
+        "title": "Источники бесперебойного питания (UPS)",
+        "slug": "istochniki-bespereboynogo-pitaniya-ups",
+        "full_url": "kompyutery-i-programmy\/istochniki-bespereboynogo-pitaniya-ups",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 134,
+        "parent_id": 9,
+        "title": "Карманные ПК",
+        "slug": "karmannye-pk",
+        "full_url": "kompyutery-i-programmy\/karmannye-pk",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 135,
+        "parent_id": 9,
+        "title": "Карты памяти",
+        "slug": "karty-pamyati",
+        "full_url": "kompyutery-i-programmy\/karty-pamyati",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 136,
+        "parent_id": 9,
+        "title": "Комплектующие",
+        "slug": "komplektuyushchie",
+        "full_url": "kompyutery-i-programmy\/komplektuyushchie",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 137,
+        "parent_id": 9,
+        "title": "Манипуляторы и клавиатуры",
+        "slug": "manipulyatory-i-klaviatury",
+        "full_url": "kompyutery-i-programmy\/manipulyatory-i-klaviatury",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 138,
+        "parent_id": 9,
+        "title": "Мониторы",
+        "slug": "monitory",
+        "full_url": "kompyutery-i-programmy\/monitory",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 139,
+        "parent_id": 9,
+        "title": "Моноблоки",
+        "slug": "monobloki",
+        "full_url": "kompyutery-i-programmy\/monobloki",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 140,
+        "parent_id": 9,
+        "title": "Мультимедиа",
+        "slug": "multimedia",
+        "full_url": "kompyutery-i-programmy\/multimedia",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 141,
+        "parent_id": 9,
+        "title": "Настольные компьютеры",
+        "slug": "nastolnye-kompyutery",
+        "full_url": "kompyutery-i-programmy\/nastolnye-kompyutery",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 142,
+        "parent_id": 9,
+        "title": "Нетбуки",
+        "slug": "netbuki",
+        "full_url": "kompyutery-i-programmy\/netbuki",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 143,
+        "parent_id": 9,
+        "title": "Ноутбуки",
+        "slug": "noutbuki",
+        "full_url": "kompyutery-i-programmy\/noutbuki",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 144,
+        "parent_id": 9,
+        "title": "Планшетные ПК",
+        "slug": "planshetnye-pk",
+        "full_url": "kompyutery-i-programmy\/planshetnye-pk",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 145,
+        "parent_id": 9,
+        "title": "Принтеры и МФУ",
+        "slug": "printery-i-mfu",
+        "full_url": "kompyutery-i-programmy\/printery-i-mfu",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 146,
+        "parent_id": 9,
+        "title": "Программное обеспечение",
+        "slug": "programmnoe-obespechenie",
+        "full_url": "kompyutery-i-programmy\/programmnoe-obespechenie",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 147,
+        "parent_id": 9,
+        "title": "Разное",
+        "slug": "kompyutery-i-programmy-raznoe",
+        "full_url": "kompyutery-i-programmy\/kompyutery-i-programmy-raznoe",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 148,
+        "parent_id": 9,
+        "title": "Расходные материалы",
+        "slug": "rashodnye-materialy",
+        "full_url": "kompyutery-i-programmy\/rashodnye-materialy",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 149,
+        "parent_id": 9,
+        "title": "Режущие плоттеры",
+        "slug": "rezhushchie-plottery",
+        "full_url": "kompyutery-i-programmy\/rezhushchie-plottery",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 150,
+        "parent_id": 9,
+        "title": "Серверы",
+        "slug": "servery",
+        "full_url": "kompyutery-i-programmy\/servery",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 151,
+        "parent_id": 9,
+        "title": "Сетевое оборудование",
+        "slug": "setevoe-oborudovanie",
+        "full_url": "kompyutery-i-programmy\/setevoe-oborudovanie",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 152,
+        "parent_id": 9,
+        "title": "Сканеры",
+        "slug": "skanery",
+        "full_url": "kompyutery-i-programmy\/skanery",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 153,
+        "parent_id": 9,
+        "title": "Устройства для чтения карт памяти",
+        "slug": "ustroystva-dlya-chteniya-kart-pamyati",
+        "full_url": "kompyutery-i-programmy\/ustroystva-dlya-chteniya-kart-pamyati",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 154,
+        "parent_id": 9,
+        "title": "Электронные книги",
+        "slug": "elektronnye-knigi",
+        "full_url": "kompyutery-i-programmy\/elektronnye-knigi",
+        "breadcrumbs": "[{\"title\":\"Компьютеры и программы\",\"url\":\"kompyutery-i-programmy\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 155,
+        "parent_id": 10,
+        "title": "Альтернативная медицина",
+        "slug": "alternativnaya-medicina",
+        "full_url": "krasota-i-zdorove\/alternativnaya-medicina",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 156,
+        "parent_id": 10,
+        "title": "Косметика декоративная",
+        "slug": "kosmetika-dekorativnaya",
+        "full_url": "krasota-i-zdorove\/kosmetika-dekorativnaya",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 157,
+        "parent_id": 10,
+        "title": "Косметика ухаживающая",
+        "slug": "kosmetika-uhazhivayushchaya",
+        "full_url": "krasota-i-zdorove\/kosmetika-uhazhivayushchaya",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 158,
+        "parent_id": 10,
+        "title": "Косметические принадлежности",
+        "slug": "kosmeticheskie-prinadlezhnosti",
+        "full_url": "krasota-i-zdorove\/kosmeticheskie-prinadlezhnosti",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 159,
+        "parent_id": 10,
+        "title": "Косметические процедуры",
+        "slug": "kosmeticheskie-procedury",
+        "full_url": "krasota-i-zdorove\/kosmeticheskie-procedury",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 160,
+        "parent_id": 10,
+        "title": "Лекарственные средства",
+        "slug": "lekarstvennye-sredstva",
+        "full_url": "krasota-i-zdorove\/lekarstvennye-sredstva",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 161,
+        "parent_id": 10,
+        "title": "Методы лечения и операции",
+        "slug": "metody-lecheniya-i-operacii",
+        "full_url": "krasota-i-zdorove\/metody-lecheniya-i-operacii",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 162,
+        "parent_id": 10,
+        "title": "Очки и контактные линзы",
+        "slug": "ochki-i-kontaktnye-linzy",
+        "full_url": "krasota-i-zdorove\/ochki-i-kontaktnye-linzy",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 163,
+        "parent_id": 10,
+        "title": "Парфюмерия и дезодоранты",
+        "slug": "parfyumeriya-i-dezodoranty",
+        "full_url": "krasota-i-zdorove\/parfyumeriya-i-dezodoranty",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 164,
+        "parent_id": 10,
+        "title": "Средства гигиены",
+        "slug": "krasota-i-zdorove-sredstva-gigieny",
+        "full_url": "krasota-i-zdorove\/krasota-i-zdorove-sredstva-gigieny",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 165,
+        "parent_id": 10,
+        "title": "Средства для похудения",
+        "slug": "sredstva-dlya-pohudeniya",
+        "full_url": "krasota-i-zdorove\/sredstva-dlya-pohudeniya",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 166,
+        "parent_id": 10,
+        "title": "Средства контрацепции",
+        "slug": "sredstva-kontracepcii",
+        "full_url": "krasota-i-zdorove\/sredstva-kontracepcii",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 167,
+        "parent_id": 10,
+        "title": "Средства увеличения груди",
+        "slug": "sredstva-uvelicheniya-grudi",
+        "full_url": "krasota-i-zdorove\/sredstva-uvelicheniya-grudi",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 168,
+        "parent_id": 10,
+        "title": "Стрижки и прически для волос",
+        "slug": "strizhki-i-pricheski-dlya-volos",
+        "full_url": "krasota-i-zdorove\/strizhki-i-pricheski-dlya-volos",
+        "breadcrumbs": "[{\"title\":\"Красота и здоровье\",\"url\":\"krasota-i-zdorove\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 169,
+        "parent_id": 11,
+        "title": "Аксессуары",
+        "slug": "odezhda-i-obuv-aksessuary",
+        "full_url": "odezhda-i-obuv\/odezhda-i-obuv-aksessuary",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 170,
+        "parent_id": 11,
+        "title": "Обувь детская",
+        "slug": "obuv-detskaya",
+        "full_url": "odezhda-i-obuv\/obuv-detskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 171,
+        "parent_id": 11,
+        "title": "Обувь женская",
+        "slug": "obuv-zhenskaya",
+        "full_url": "odezhda-i-obuv\/obuv-zhenskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 172,
+        "parent_id": 11,
+        "title": "Обувь мужская",
+        "slug": "obuv-muzhskaya",
+        "full_url": "odezhda-i-obuv\/obuv-muzhskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 173,
+        "parent_id": 11,
+        "title": "Одежда детская",
+        "slug": "odezhda-detskaya",
+        "full_url": "odezhda-i-obuv\/odezhda-detskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 174,
+        "parent_id": 11,
+        "title": "Одежда женская",
+        "slug": "odezhda-zhenskaya",
+        "full_url": "odezhda-i-obuv\/odezhda-zhenskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 175,
+        "parent_id": 11,
+        "title": "Одежда мужская",
+        "slug": "odezhda-muzhskaya",
+        "full_url": "odezhda-i-obuv\/odezhda-muzhskaya",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 176,
+        "parent_id": 11,
+        "title": "Разное",
+        "slug": "odezhda-i-obuv-raznoe",
+        "full_url": "odezhda-i-obuv\/odezhda-i-obuv-raznoe",
+        "breadcrumbs": "[{\"title\":\"Одежда и обувь\",\"url\":\"odezhda-i-obuv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 177,
+        "parent_id": 12,
+        "title": "Антистрессовые и релаксирующие сувениры",
+        "slug": "antistressovye-i-relaksiruyushchie-suveniry",
+        "full_url": "podarki-i-suveniry\/antistressovye-i-relaksiruyushchie-suveniry",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 178,
+        "parent_id": 12,
+        "title": "Интимные подарки",
+        "slug": "intimnye-podarki",
+        "full_url": "podarki-i-suveniry\/intimnye-podarki",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 179,
+        "parent_id": 12,
+        "title": "Подарки по рекламной акции",
+        "slug": "podarki-po-reklamnoy-akcii",
+        "full_url": "podarki-i-suveniry\/podarki-po-reklamnoy-akcii",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 180,
+        "parent_id": 12,
+        "title": "Разное",
+        "slug": "podarki-i-suveniry-raznoe",
+        "full_url": "podarki-i-suveniry\/podarki-i-suveniry-raznoe",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 181,
+        "parent_id": 12,
+        "title": "Табачные изделия",
+        "slug": "tabachnye-izdeliya",
+        "full_url": "podarki-i-suveniry\/tabachnye-izdeliya",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 182,
+        "parent_id": 12,
+        "title": "Товары для рукоделия",
+        "slug": "tovary-dlya-rukodeliya",
+        "full_url": "podarki-i-suveniry\/tovary-dlya-rukodeliya",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 183,
+        "parent_id": 12,
+        "title": "Часы",
+        "slug": "chasy",
+        "full_url": "podarki-i-suveniry\/chasy",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 184,
+        "parent_id": 12,
+        "title": "Ювелирные украшения и бижутерия",
+        "slug": "yuvelirnye-ukrasheniya-i-bizhuteriya",
+        "full_url": "podarki-i-suveniry\/yuvelirnye-ukrasheniya-i-bizhuteriya",
+        "breadcrumbs": "[{\"title\":\"Подарки и сувениры\",\"url\":\"podarki-i-suveniry\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 185,
+        "parent_id": 13,
+        "title": "Алкоголь",
+        "slug": "alkogol",
+        "full_url": "produkty-pitaniya\/alkogol",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 186,
+        "parent_id": 13,
+        "title": "Десерты",
+        "slug": "deserty",
+        "full_url": "produkty-pitaniya\/deserty",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 187,
+        "parent_id": 13,
+        "title": "Детское питание",
+        "slug": "detskoe-pitanie",
+        "full_url": "produkty-pitaniya\/detskoe-pitanie",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 188,
+        "parent_id": 13,
+        "title": "Закуски",
+        "slug": "zakuski",
+        "full_url": "produkty-pitaniya\/zakuski",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 189,
+        "parent_id": 13,
+        "title": "Консервы",
+        "slug": "konservy",
+        "full_url": "produkty-pitaniya\/konservy",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 190,
+        "parent_id": 13,
+        "title": "Крупы и макаронные изделия",
+        "slug": "krupy-i-makaronnye-izdeliya",
+        "full_url": "produkty-pitaniya\/krupy-i-makaronnye-izdeliya",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 191,
+        "parent_id": 13,
+        "title": "Молочные продукты",
+        "slug": "molochnye-produkty",
+        "full_url": "produkty-pitaniya\/molochnye-produkty",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 192,
+        "parent_id": 13,
+        "title": "Мясо и колбасы",
+        "slug": "myaso-i-kolbasy",
+        "full_url": "produkty-pitaniya\/myaso-i-kolbasy",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 193,
+        "parent_id": 13,
+        "title": "Напитки",
+        "slug": "napitki",
+        "full_url": "produkty-pitaniya\/napitki",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 194,
+        "parent_id": 13,
+        "title": "Национальные блюда",
+        "slug": "nacionalnye-blyuda",
+        "full_url": "produkty-pitaniya\/nacionalnye-blyuda",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 195,
+        "parent_id": 13,
+        "title": "Овощи и фрукты",
+        "slug": "ovoshchi-i-frukty",
+        "full_url": "produkty-pitaniya\/ovoshchi-i-frukty",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 196,
+        "parent_id": 13,
+        "title": "Орехи и семечки",
+        "slug": "orehi-i-semechki",
+        "full_url": "produkty-pitaniya\/orehi-i-semechki",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 197,
+        "parent_id": 13,
+        "title": "Пищевые добавки",
+        "slug": "pishchevye-dobavki",
+        "full_url": "produkty-pitaniya\/pishchevye-dobavki",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 198,
+        "parent_id": 13,
+        "title": "Полуфабрикаты",
+        "slug": "polufabrikaty",
+        "full_url": "produkty-pitaniya\/polufabrikaty",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 199,
+        "parent_id": 13,
+        "title": "Приправы и специи",
+        "slug": "pripravy-i-specii",
+        "full_url": "produkty-pitaniya\/pripravy-i-specii",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 200,
+        "parent_id": 13,
+        "title": "Разное",
+        "slug": "produkty-pitaniya-raznoe",
+        "full_url": "produkty-pitaniya\/produkty-pitaniya-raznoe",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 201,
+        "parent_id": 13,
+        "title": "Растительные масла",
+        "slug": "rastitelnye-masla",
+        "full_url": "produkty-pitaniya\/rastitelnye-masla",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 202,
+        "parent_id": 13,
+        "title": "Сахар и сахарозаменители",
+        "slug": "sahar-i-saharozameniteli",
+        "full_url": "produkty-pitaniya\/sahar-i-saharozameniteli",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 203,
+        "parent_id": 13,
+        "title": "Соусы и подливы",
+        "slug": "sousy-i-podlivy",
+        "full_url": "produkty-pitaniya\/sousy-i-podlivy",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 204,
+        "parent_id": 13,
+        "title": "Хлебобулочные изделия",
+        "slug": "hlebobulochnye-izdeliya",
+        "full_url": "produkty-pitaniya\/hlebobulochnye-izdeliya",
+        "breadcrumbs": "[{\"title\":\"Продукты питания\",\"url\":\"produkty-pitaniya\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 205,
+        "parent_id": 14,
+        "title": "Агентства и компании",
+        "slug": "agentstva-i-kompanii",
+        "full_url": "puteshestviya-i-turizm\/agentstva-i-kompanii",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 206,
+        "parent_id": 14,
+        "title": "Кемпинги, туристические базы отдыха",
+        "slug": "kempingi-turisticheskie-bazy-otdyha",
+        "full_url": "puteshestviya-i-turizm\/kempingi-turisticheskie-bazy-otdyha",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 207,
+        "parent_id": 14,
+        "title": "Курорты и экскурсии",
+        "slug": "kurorty-i-ekskursii",
+        "full_url": "puteshestviya-i-turizm\/kurorty-i-ekskursii",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 208,
+        "parent_id": 14,
+        "title": "Отели, гостиницы, санатории",
+        "slug": "oteli-gostinicy-sanatorii",
+        "full_url": "puteshestviya-i-turizm\/oteli-gostinicy-sanatorii",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 209,
+        "parent_id": 14,
+        "title": "Туры и круизы",
+        "slug": "tury-i-kruizy",
+        "full_url": "puteshestviya-i-turizm\/tury-i-kruizy",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 210,
+        "parent_id": 14,
+        "title": "Фестивали и праздники",
+        "slug": "festivali-i-prazdniki",
+        "full_url": "puteshestviya-i-turizm\/festivali-i-prazdniki",
+        "breadcrumbs": "[{\"title\":\"Путешествия и туризм\",\"url\":\"puteshestviya-i-turizm\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 211,
+        "parent_id": 15,
+        "title": "Производство",
+        "slug": "proizvodstvo",
+        "full_url": "rabota-i-zarabotok\/proizvodstvo",
+        "breadcrumbs": "[{\"title\":\"Работа и заработок\",\"url\":\"rabota-i-zarabotok\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 212,
+        "parent_id": 15,
+        "title": "Работа на дому",
+        "slug": "rabota-na-domu",
+        "full_url": "rabota-i-zarabotok\/rabota-na-domu",
+        "breadcrumbs": "[{\"title\":\"Работа и заработок\",\"url\":\"rabota-i-zarabotok\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 213,
+        "parent_id": 15,
+        "title": "Связь и интернет",
+        "slug": "svyaz-i-internet",
+        "full_url": "rabota-i-zarabotok\/svyaz-i-internet",
+        "breadcrumbs": "[{\"title\":\"Работа и заработок\",\"url\":\"rabota-i-zarabotok\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 214,
+        "parent_id": 16,
+        "title": "Велосипеды",
+        "slug": "velosipedy",
+        "full_url": "sport-i-aktivnyy-otdyh\/velosipedy",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 215,
+        "parent_id": 16,
+        "title": "Виды спорта",
+        "slug": "vidy-sporta",
+        "full_url": "sport-i-aktivnyy-otdyh\/vidy-sporta",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 216,
+        "parent_id": 16,
+        "title": "Палатки и шатры",
+        "slug": "palatki-i-shatry",
+        "full_url": "sport-i-aktivnyy-otdyh\/palatki-i-shatry",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 217,
+        "parent_id": 16,
+        "title": "Разное",
+        "slug": "sport-i-aktivnyy-otdyh-raznoe",
+        "full_url": "sport-i-aktivnyy-otdyh\/sport-i-aktivnyy-otdyh-raznoe",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 218,
+        "parent_id": 16,
+        "title": "Рыболовное снаряжение",
+        "slug": "rybolovnoe-snaryazhenie",
+        "full_url": "sport-i-aktivnyy-otdyh\/rybolovnoe-snaryazhenie",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 219,
+        "parent_id": 16,
+        "title": "Снаряжение для плавания и дайвинга",
+        "slug": "snaryazhenie-dlya-plavaniya-i-dayvinga",
+        "full_url": "sport-i-aktivnyy-otdyh\/snaryazhenie-dlya-plavaniya-i-dayvinga",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 220,
+        "parent_id": 16,
+        "title": "Спортивное питание",
+        "slug": "sportivnoe-pitanie",
+        "full_url": "sport-i-aktivnyy-otdyh\/sportivnoe-pitanie",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 221,
+        "parent_id": 16,
+        "title": "Спортивное снаряжение и тренажеры",
+        "slug": "sportivnoe-snaryazhenie-i-trenazhery",
+        "full_url": "sport-i-aktivnyy-otdyh\/sportivnoe-snaryazhenie-i-trenazhery",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 222,
+        "parent_id": 16,
+        "title": "Спортивные средства передвижения",
+        "slug": "sportivnye-sredstva-peredvizheniya",
+        "full_url": "sport-i-aktivnyy-otdyh\/sportivnye-sredstva-peredvizheniya",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 223,
+        "parent_id": 16,
+        "title": "Стрельба",
+        "slug": "strelba",
+        "full_url": "sport-i-aktivnyy-otdyh\/strelba",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 224,
+        "parent_id": 16,
+        "title": "Туристическое снаряжение",
+        "slug": "turisticheskoe-snaryazhenie",
+        "full_url": "sport-i-aktivnyy-otdyh\/turisticheskoe-snaryazhenie",
+        "breadcrumbs": "[{\"title\":\"Спорт и активный отдых\",\"url\":\"sport-i-aktivnyy-otdyh\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 225,
+        "parent_id": 17,
+        "title": "Аудио",
+        "slug": "audio",
+        "full_url": "tehnika-i-oborudovanie\/audio",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 226,
+        "parent_id": 17,
+        "title": "Бытовая техника для индивидуального ухода",
+        "slug": "bytovaya-tehnika-dlya-individualnogo-uhoda",
+        "full_url": "tehnika-i-oborudovanie\/bytovaya-tehnika-dlya-individualnogo-uhoda",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 227,
+        "parent_id": 17,
+        "title": "Бытовая техника для кухни",
+        "slug": "bytovaya-tehnika-dlya-kuhni",
+        "full_url": "tehnika-i-oborudovanie\/bytovaya-tehnika-dlya-kuhni",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 228,
+        "parent_id": 17,
+        "title": "Бытовая техника для одежды и обуви",
+        "slug": "bytovaya-tehnika-dlya-odezhdy-i-obuvi",
+        "full_url": "tehnika-i-oborudovanie\/bytovaya-tehnika-dlya-odezhdy-i-obuvi",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 229,
+        "parent_id": 17,
+        "title": "Бытовая техника для помещений",
+        "slug": "bytovaya-tehnika-dlya-pomeshcheniy",
+        "full_url": "tehnika-i-oborudovanie\/bytovaya-tehnika-dlya-pomeshcheniy",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 230,
+        "parent_id": 17,
+        "title": "Видео",
+        "slug": "video",
+        "full_url": "tehnika-i-oborudovanie\/video",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 231,
+        "parent_id": 17,
+        "title": "Канцелярские изделия",
+        "slug": "kancelyarskie-izdeliya",
+        "full_url": "tehnika-i-oborudovanie\/kancelyarskie-izdeliya",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 232,
+        "parent_id": 17,
+        "title": "Кронштейны",
+        "slug": "kronshteyny",
+        "full_url": "tehnika-i-oborudovanie\/kronshteyny",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 233,
+        "parent_id": 17,
+        "title": "Медицинское оборудование",
+        "slug": "medicinskoe-oborudovanie",
+        "full_url": "tehnika-i-oborudovanie\/medicinskoe-oborudovanie",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 234,
+        "parent_id": 17,
+        "title": "Музыкальные инструменты",
+        "slug": "muzykalnye-instrumenty",
+        "full_url": "tehnika-i-oborudovanie\/muzykalnye-instrumenty",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 235,
+        "parent_id": 17,
+        "title": "Оборудование для спецэффектов",
+        "slug": "oborudovanie-dlya-speceffektov",
+        "full_url": "tehnika-i-oborudovanie\/oborudovanie-dlya-speceffektov",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 236,
+        "parent_id": 17,
+        "title": "Офисная техника",
+        "slug": "ofisnaya-tehnika",
+        "full_url": "tehnika-i-oborudovanie\/ofisnaya-tehnika",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 237,
+        "parent_id": 17,
+        "title": "Портативная аудиотехника",
+        "slug": "portativnaya-audiotehnika",
+        "full_url": "tehnika-i-oborudovanie\/portativnaya-audiotehnika",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 238,
+        "parent_id": 17,
+        "title": "Промышленное оборудование",
+        "slug": "promyshlennoe-oborudovanie",
+        "full_url": "tehnika-i-oborudovanie\/promyshlennoe-oborudovanie",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 239,
+        "parent_id": 17,
+        "title": "Разное",
+        "slug": "tehnika-i-oborudovanie-raznoe",
+        "full_url": "tehnika-i-oborudovanie\/tehnika-i-oborudovanie-raznoe",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 240,
+        "parent_id": 17,
+        "title": "Средства связи",
+        "slug": "sredstva-svyazi",
+        "full_url": "tehnika-i-oborudovanie\/sredstva-svyazi",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 241,
+        "parent_id": 17,
+        "title": "Строительный инструмент и оборудование",
+        "slug": "stroitelnyy-instrument-i-oborudovanie",
+        "full_url": "tehnika-i-oborudovanie\/stroitelnyy-instrument-i-oborudovanie",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 242,
+        "parent_id": 17,
+        "title": "Счетчики бытовые",
+        "slug": "schetchiki-bytovye",
+        "full_url": "tehnika-i-oborudovanie\/schetchiki-bytovye",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 243,
+        "parent_id": 17,
+        "title": "Техника для дачи",
+        "slug": "tehnika-dlya-dachi",
+        "full_url": "tehnika-i-oborudovanie\/tehnika-dlya-dachi",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 244,
+        "parent_id": 17,
+        "title": "Фото и оптика",
+        "slug": "foto-i-optika",
+        "full_url": "tehnika-i-oborudovanie\/foto-i-optika",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 245,
+        "parent_id": 17,
+        "title": "Электронные приборы",
+        "slug": "elektronnye-pribory",
+        "full_url": "tehnika-i-oborudovanie\/elektronnye-pribory",
+        "breadcrumbs": "[{\"title\":\"Техника и оборудование\",\"url\":\"tehnika-i-oborudovanie\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 246,
+        "parent_id": 18,
+        "title": "Разное",
+        "slug": "filmy-video-i-tv-raznoe",
+        "full_url": "filmy-video-i-tv\/filmy-video-i-tv-raznoe",
+        "breadcrumbs": "[{\"title\":\"Фильмы, видео и ТВ\",\"url\":\"filmy-video-i-tv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 247,
+        "parent_id": 18,
+        "title": "Телевидение и видеоканалы",
+        "slug": "televidenie-i-videokanaly",
+        "full_url": "filmy-video-i-tv\/televidenie-i-videokanaly",
+        "breadcrumbs": "[{\"title\":\"Фильмы, видео и ТВ\",\"url\":\"filmy-video-i-tv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 248,
+        "parent_id": 18,
+        "title": "Фильмы и видео",
+        "slug": "filmy-i-video",
+        "full_url": "filmy-video-i-tv\/filmy-i-video",
+        "breadcrumbs": "[{\"title\":\"Фильмы, видео и ТВ\",\"url\":\"filmy-video-i-tv\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 249,
+        "parent_id": 19,
+        "title": "Банки",
+        "slug": "banki",
+        "full_url": "finansovye-uslugi\/banki",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 250,
+        "parent_id": 19,
+        "title": "Денежные переводы",
+        "slug": "denezhnye-perevody",
+        "full_url": "finansovye-uslugi\/denezhnye-perevody",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 251,
+        "parent_id": 19,
+        "title": "Инвестиции",
+        "slug": "investicii",
+        "full_url": "finansovye-uslugi\/investicii",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 252,
+        "parent_id": 19,
+        "title": "Коллекторские агентства",
+        "slug": "kollektorskie-agentstva",
+        "full_url": "finansovye-uslugi\/kollektorskie-agentstva",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 253,
+        "parent_id": 19,
+        "title": "Кредитование и лизинг",
+        "slug": "kreditovanie-i-lizing",
+        "full_url": "finansovye-uslugi\/kreditovanie-i-lizing",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 254,
+        "parent_id": 19,
+        "title": "Криптовалюта",
+        "slug": "kriptovalyuta",
+        "full_url": "finansovye-uslugi\/kriptovalyuta",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 255,
+        "parent_id": 19,
+        "title": "Пластиковые карты",
+        "slug": "plastikovye-karty",
+        "full_url": "finansovye-uslugi\/plastikovye-karty",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 256,
+        "parent_id": 19,
+        "title": "Платежные системы",
+        "slug": "platezhnye-sistemy",
+        "full_url": "finansovye-uslugi\/platezhnye-sistemy",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    },
+    {
+        "id": 257,
+        "parent_id": 19,
+        "title": "Разное",
+        "slug": "finansovye-uslugi-raznoe",
+        "full_url": "finansovye-uslugi\/finansovye-uslugi-raznoe",
+        "breadcrumbs": "[{\"title\":\"Финансовые услуги\",\"url\":\"finansovye-uslugi\"}]",
+        "icon": null,
+        "sort": 30
+    }
+]

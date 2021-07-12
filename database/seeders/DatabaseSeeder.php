@@ -17,8 +17,9 @@ class DatabaseSeeder extends Seeder
         DB::statement('SET FOREIGN_KEY_CHECKS = 0');
 
         $this->call([
+            AdminSeeder::class,
             BlogSeeder::class,
-            MainSeeder::class
+            CategoriesSeeder::class,
         ]);
     }
 }

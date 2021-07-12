@@ -47,3 +47,9 @@ Route::get('/faq', function () {
 Route::get('/reviews-category', function () {
     return view('reviews-category');
 });
+
+Route::get('/test', static function () {
+    $categories = \App\Models\Category::getTreeCategories();
+
+    dump($categories);
+});
