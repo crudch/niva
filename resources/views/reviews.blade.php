@@ -22,7 +22,6 @@
             </div>
         </div>
     </div>
-
     <!-- Reviews Area-->
     <section class="about-area about3 section-padding-120 bg-gray">
         <div class="container">
@@ -97,6 +96,166 @@
                             <div class="card-body"><i class="lni-baloon"></i>
                                 <h5>Развлечения</h5>
                                 <p class="mb-0">Для всех и каждого</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-wordpress"></i>
+                                <div class="fea-text">
+                                    <h6>WordPress Solution</h6><span>Ultimate Solution for WP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-brush"></i>
+                                <div class="fea-text">
+                                    <h6>Frontend Solution</h6><span>Solution for Webs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area           -->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bar-chart"></i>
+                                <div class="fea-text">
+                                    <h6>Digital Branding</h6><span>Boot your sales</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area           -->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-wechat"></i>
+                                <div class="fea-text">
+                                    <h6>Live Chat Help</h6><span>Support 24h a day</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area        -->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-cog"></i>
+                                <div class="fea-text">
+                                    <h6>Easy Setup</h6><span>Solution for setup</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1000ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1100ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1200ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1300ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1400ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1500ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="1600ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-bug"></i>
+                                <div class="fea-text">
+                                    <h6>Fixed Bugs</h6><span>Unlimited bug fix</span>
+                                </div>
                             </div>
                         </div>
                     </div>
