@@ -22,7 +22,6 @@
             </div>
         </div>
     </div>
-
     <!-- Reviews Area-->
     <section class="about-area about3 section-padding-120 bg-gray">
         <div class="container">
