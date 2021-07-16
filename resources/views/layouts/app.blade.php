@@ -165,8 +165,8 @@
 </footer>
 
 <!-- All JavaScript Files-->
-<script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/default/classy-nav.min.js"></script>
 <script src="/js/waypoints.min.js"></script>
 <script src="/js/jquery.easing.min.js"></script>

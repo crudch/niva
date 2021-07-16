@@ -409,25 +409,28 @@
   color: #ffac00;
 }
 
-.reviews-area .accordion-item {
-  background-color: #fff;
-  border: none;
-  border-bottom: 1px solid rgba(0,0,0,.125);
-}
+.reviews-area {
 
-.reviews-area .accordion-item:first-child {
-  border-top: 1px solid rgba(0,0,0,.125);
-}
+  .accordion-item {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
 
-.reviews-area .accordion-button:focus {
-  box-shadow: none;
-}
+    &:first-child {
+      border-top: 1px solid rgba(0,0,0,.125);
+    }
+  }
 
-.reviews-area .nav-link {
-  color: #000;
-}
+  .accordion-button:focus {
+    box-shadow: none;
+  }
 
-.reviews-area .nav-link:hover,
-.reviews-area .nav-link:focus {
-  color: #060ec9;
+  .nav-link {
+    color: #000;
+
+    &:hover, &:focus {
+      color: #060ec9;
+    }
+  }
+
 }
