@@ -53,3 +53,7 @@ Route::get('/test', static function () {
 
     dump($categories);
 });
+
+Route::get('/category-child', function () {
+    return view('category-child');
+});
