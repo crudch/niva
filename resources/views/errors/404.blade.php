@@ -128,24 +128,24 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/default/classy-nav.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/default/jquery.scrollup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/default/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.animatedheadline.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jarallax.min.js"></script>
-<script src="js/jarallax-video.min.js"></script>
-<script src="js/default/cookiealert.js"></script>
-<script src="js/default/jquery.passwordstrength.js"></script>
-<script src="js/default/mail.js"></script>
-<script src="js/default/active.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/default/classy-nav.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/default/jquery.scrollup.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/default/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.animatedheadline.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jarallax.min.js"></script>
+<script src="/js/jarallax-video.min.js"></script>
+<script src="/js/default/cookiealert.js"></script>
+<script src="/js/default/jquery.passwordstrength.js"></script>
+<script src="/js/default/mail.js"></script>
+<script src="/js/default/active.js"></script>
 </body>
 </html>
