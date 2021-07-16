@@ -48,24 +48,12 @@ Route::get('/contacts', function () {
     return view('contacts');
 });
 
-Route::get('/404', function () {
-    return view('404');
-});
-
 Route::get('/faq', function () {
     return view('faq');
-});
-
-Route::get('/reviews-category', function () {
-    return view('reviews-category');
 });
 
 Route::get('/test', static function () {
     $categories = Category::getTreeCategories();
 
     dump($categories);
-});
-
-Route::get('/category-child', function () {
-    return view('category-child');
 });

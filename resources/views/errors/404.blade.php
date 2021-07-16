@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Контакты</title>
+    <title>404</title>
     <!-- Favicon-->
     <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
@@ -35,11 +35,11 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="/">Главная</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="/blog">Блог</a></li>
+                            <li><a href="{{ route('home') }}">Главная</a></li>
+                            <li><a href="{{ route('reviews.index') }}">Отзывы</a></li>
+                            <li><a href="{{ route('blog.index') }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
-                            <li><a href="/contacts">Контакты</a></li>
+                            <li><a href="{{ url('/contacts') }}">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
                         <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>

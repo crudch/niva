@@ -18,7 +18,13 @@ class TestController extends Controller
                 abort(404);
             }
 
-            return view('categories.child', compact('category'));
+            return view('categories.second', compact('category'));
         }
+
+        $category = Category::where('slug', $category1)
+            ->with('children')
+            ->firstOrFail();
+
+        return view('categories.first', compact('category'));
     }
 }
