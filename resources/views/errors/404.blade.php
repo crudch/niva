@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Контакты</title>
+    <title>404</title>
     <!-- Favicon-->
     <link rel="icon" type="image/svg+xml" href="/img/core-img/logo.svg">
     <!-- Core Stylesheet-->
@@ -35,11 +35,11 @@
                     <!-- Nav Start-->
                     <div class="classynav">
                         <ul id="corenav">
-                            <li><a href="/">Главная</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="/blog">Блог</a></li>
+                            <li><a href="{{ route('home') }}">Главная</a></li>
+                            <li><a href="{{ route('reviews.index') }}">Отзывы</a></li>
+                            <li><a href="{{ route('blog.index') }}">Блог</a></li>
                             <li><a href="#">Компании</a></li>
-                            <li><a href="/contacts">Контакты</a></li>
+                            <li><a href="{{ url('/contacts') }}">Контакты</a></li>
                         </ul>
                         <!-- Login Button-->
                         <div class="login-btn-area ml-4 mt-4 mt-lg-0"><a class="btn saasbox-btn btn-sm" href="#">Войти</a></div>
@@ -128,24 +128,24 @@
     </div>
 </footer>
 <!-- All JavaScript Files-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/default/classy-nav.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/default/jquery.scrollup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/default/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.animatedheadline.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jarallax.min.js"></script>
-<script src="js/jarallax-video.min.js"></script>
-<script src="js/default/cookiealert.js"></script>
-<script src="js/default/jquery.passwordstrength.js"></script>
-<script src="js/default/mail.js"></script>
-<script src="js/default/active.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/default/classy-nav.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
+<script src="/js/default/jquery.scrollup.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/default/isotope.pkgd.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/jquery.animatedheadline.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/jarallax.min.js"></script>
+<script src="/js/jarallax-video.min.js"></script>
+<script src="/js/default/cookiealert.js"></script>
+<script src="/js/default/jquery.passwordstrength.js"></script>
+<script src="/js/default/mail.js"></script>
+<script src="/js/default/active.js"></script>
 </body>
 </html>

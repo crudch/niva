@@ -143,7 +143,8 @@
                     @foreach($categories as $category)
                         <!-- Single Hero Card-->
                         <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
-                                <a href="#" class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
+                                <a href="{{ route('reviews.test', ['category1' => $category->slug]) }}"
+                                        class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms">
                                     <div class="card-body"><i class="{{ $category->icon }}"></i>
                                         <h5>{{ $category->title }}</h5>
                                         <p class="mb-0">{{ $category->description }}</p>

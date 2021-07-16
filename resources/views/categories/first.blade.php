@@ -1,7 +1,12 @@
+<?php
+/**
+ * @var \App\Models\Category $category
+ */
+?>
 @extends('layouts.app', ['h' => 'header2'])
 
-@section('title', 'Отзывы компаний')
-@section('description', 'Отзывы')
+@section('title', $category->title)
+@section('description', $category->description)
 
 @section('content')
     <!-- Breadcrumb Area-->
@@ -10,11 +15,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="breadcrumb-title">Категории</h2>
+                        <h2 class="breadcrumb-title">{{ $category->title }}</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                                <li class="breadcrumb-item"><a href="#">Категории</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Главная</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('reviews.index') }}">Отзывы</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -22,27 +27,37 @@
             </div>
         </div>
     </div>
+
     <!-- Reviews Area-->
-    <section class="reviews-area section-padding-120">
+    <section class="about-area about3 section-padding-120 bg-gray">
         <div class="container">
-            <ul id="nav_accordion" class="nav flex-column">
-                <li class="accordion-item">
-                    <a class="accordion-button collapsed" data-toggle="collapse" data-target="#menu_item1" href="#">Аварийные / справочные / экстренные службы<i class="bi small bi-caret-down-fill"></i> </a>
-                    <ul id="menu_item1" class="submenu collapse">
-                        <li><a class="nav-link" href="#">Аварийные службы</a></li>
-                        <li><a class="nav-link" href="#">Пожарная охрана</a></li>
-                        <li><a class="nav-link" href="#">Скорая медицинская помощь</a> </li>
-                    </ul>
-                </li>
-                <li class="accordion-item">
-                    <a class="accordion-button collapsed" data-toggle="collapse" data-target="#menu_item2" href="#">Автосервис / Автотовары<i class="bi small bi-caret-down-fill"></i> </a>
-                    <ul id="menu_item2" class="submenu collapse">
-                        <li><a class="nav-link" href="#">Автоаксессуары</a></li>
-                        <li><a class="nav-link" href="#">Автозапчасти для грузовых автомобилей</a></li>
-                        <li><a class="nav-link" href="#">Автозапчасти для иномарок</a> </li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="hero--content--area">
+                <div class="row justify-content-center g-4">
+                    @foreach($category->children as $child)
+                        <!-- Single Hero Card-->
+                            <a href="{{ route('reviews.test', ['category1' => $category->slug, 'category2' => $child->slug]) }}"
+                                    class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                                <div class="card hero-card h-100 border-0 wow fadeInUp p-3" data-wow-delay="100ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                                    <div class="card-body"><i class="lni-dinner"></i>
+                                        <h5>{{$child->title}}</h5>
+                                        <p class="mb-0">{{ $child->description ?: 'Описание' }}</p>
+                                    </div>
+                                </div>
+                            </a>
+                    @endforeach
+
+                    {{--<!-- Single Feature Area-->
+                    <div class="col-12 col-md-3">
+                        <div class="card feature-card wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="card-body d-flex align-items-center"><i class="lni-wordpress"></i>
+                                <div class="fea-text">
+                                    <h6>WordPress Solution</h6><span>Ultimate Solution for WP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>--}}
+                </div>
+            </div>
         </div>
     </section>
 
