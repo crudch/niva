@@ -10,11 +10,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="breadcrumb-title">Карточка фирмы</h2>
+                        <h2 class="breadcrumb-title">Большая кормушка</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="/">Главная</a></li>
-                                <li class="breadcrumb-item"><a href="#">Отзывы</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Главная</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('reviews.index') }}">Отзывы</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="#">Отзыв о "Большая кормушка"</a></li>
                             </ol>
                         </nav>

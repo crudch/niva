@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row g-5">
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -78,9 +78,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/lego.png" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -99,9 +99,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/bauer.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -120,9 +120,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/playmobil.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -141,9 +141,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/megabloks.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -162,9 +162,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/sluban.png" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -183,9 +183,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/megaconstrux.png" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -204,9 +204,9 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/gorodmasterov.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- Single Shop Card-->
-                <div class="col-12 col-sm-6 col-lg-3">
+                <a href="{{ route('reviews.test', ['category1' => $category->parent->slug, 'category2' => $category->slug, 'product' => 'single']) }}" class="col-12 col-sm-6 col-lg-3">
                     <div class="card shop-card">
                         <div class="product-meta d-flex align-items-center justify-content-center p-2">
                             <div class="product-name">
@@ -225,7 +225,7 @@
                         <div class="product-img-wrap"><img class="card-img-bottom" src="/img/custom-img/mobicaro.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
